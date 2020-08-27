@@ -1,0 +1,223 @@
+/* 
+  Localizable.strings
+  Scanner
+
+   on 1/18/17.
+   
+*/
+
+"Scanner" = "สแกนเนอร์";
+
+
+///
+"E-mail" = "อีเมล";
+"Photos" = "ภาพถ่าย";
+
+///
+"OK" = "ตกลง";
+"Cancel" = "ยกเลิก";
+"Done" = "เสร็จสิ้น";
+
+///
+"Missing HTTP Response" = "การส่งกลับของ HTTP ขาดหายไป";
+
+///
+"Have you heard about iScanner?" = "คุณเคยได้ยินเกี่ยวกับแอพ %@ หรือไม่?";
+"This is what they sound like." = "ลิงก์ดาวน์โหลดใน App Store ";
+"Saved" = "บันทึกแล้ว";
+"Please Log in to iCloud" = "กรุณาเข้าสู่ระบบไปที่ iCloud ";
+"Cannot find correct folder" = "ไม่พบโฟลเดอร์ที่ถูกต้อง";
+"Correct folder found" = "พบโฟลเดอร์ที่ถูกต้อง";
+"Create folder successfully" = "สร้างโฟลเดอร์ใหม่เรียบร้อยแล้ว";
+"Create folder failed" = "ล้มเหลวในการสร้างโฟลเดอร์ใหม่";
+"Files are not in correct type" = "รูปแบบไฟล์ไม่ถูกต้อง";
+
+///
+"New Document PDF Name" = "ชื่อเอกสาร PDF ใหม่";
+"New" = "ใหม่";
+"Folder" = "โฟลเดอร์";
+"New Folder" = "โฟลเดอร์ใหม่";
+"Create new folder" = "สร้างโฟลเดอร์ใหม่";
+"Type new folder name below." = "พิมพ์ชื่อโฟลเดอร์ใหม่";
+"Create" = "สร้าง";
+"Document" = "เอกสาร";
+
+
+///
+"Recognition" = "การรู้จำ";
+"Install" = "ติดตั้ง";
+"Download" = "ดาวน์โหลด";
+"OCR" = "การรู้จำอักขระด้วยแสง (OCR)";
+"Show as text" = "แสดงเป็นข้อความ";
+"Delete document" = "ลบเอกสาร";
+"Text copied to clipboard" = "คัดลอกข้อความไปยังคลิปบอร์ด";
+"Choose Language" = "เลือกภาษา";
+
+///
+"Email" = "อีเมล";
+"Send as jpg" = "ส่งเป็นไฟล์ jpg";
+"Open as..." = "เปิดเป็น...";
+"Print" = "พิมพ์";
+
+///
+"pages" = "หน้า";
+"files" = "ไฟล์";
+
+///
+"Are you sure?" = "คุณแน่ใจหรือไม่?";
+"Selected file(s) will be deleted permanently!" = "ไฟล์ที่เลือกจะถูกลบออกถาวร!";
+"Yes, delete it!" = "ใช่ ลบมัน!";
+"Deleted!" = "ลบแล้ว!";
+"Your file(s) has been deleted!" = "ไฟล์ของคุณถูกลบไปแล้ว!";
+"Nothing to delete" = "ไม่มีอะไรให้ลบ";
+"files was moved" = "ไฟล์ถูกย้าย";
+"Your image has been saved to Photo Library!" = "บันทึกภาพแล้ว";
+"Please press" = "กรุณากด";
+
+///
+"PDF Text" = "ไฟล์ข้อความ PDF";
+"Text" = "ข้อความ";
+
+///
+"Lock App" = "ล็อคแอพ";
+"Paper Size" = "ขนาดกระดาษ";
+"Show Tutorial" = "แสดงบทช่วยสอน";
+"Support" = "สนับสนุน";
+"Rate App" = "ให้คะแนนแอพ";
+"Share App" = "แชร์แอพ";
+"App Settings" = "การตั้งค่าแอพ";
+"Others" = "อื่น ๆ";
+
+///
+"Off" = "ปิด";
+"On" = "เปิด";
+
+///
+"Choice Filter Color" = "เลือกสีฟิลเตอร์";
+"Color" = "สี";
+"Grayscale" = "สีเทา";
+"Black and White" = "ขาวและดำ";
+
+///
+"Choice Size" = "เลือกขนาด";
+"Letter" = "จดหมาย";
+"Business Card" = "นามบัตร";
+
+///
+"Enter passcode" = "ใส่รหัสผ่าน";
+"Confirm the passcode" = "ยืนยันรหัสผ่าน";
+"Pincode Title3" = "ใส่รหัสผ่านเก่า";
+"Pincode Title4" = "ใส่รหัสผ่านใหม่";
+"Incorrect passcode" = "รหัสผ่านไม่ถูกต้อง";
+
+"Settings" = "การตั้งค่า";
+
+///
+"Move" = "ย้าย";
+"Share" = "แชร์";
+"Merge" = "ผสาน";
+"Delete" = "ลบ";
+
+"Languages" = "ภาษา";
+"Afrikaans" = "แอฟริกา";
+"Albanian" = "แอลเบเนีย";
+"Arabic" = "อาหรับ";
+"Armenian" = "อาร์เมเนีย";
+"Basque" = "บาสก์";
+"Bengali" = "บังคลาเทศ";
+"Bulgarian" = "บัลแกเรีย";
+"Catalan" = "คาตาลัน";
+"Cambodian" = "เขมร";
+"Chinese (Mandarin)" = "ภาษาจีน (แมนดาริน)";
+"Croatian" = "โครเอเชีย";
+"Czech" = "เช็ก";
+"Danish" = "เดนมาร์ก";
+"Dutch" = "ดัตช์";
+"English" = "ภาษาอังกฤษ";
+"Estonian" = "เอสโตเนีย";
+"Fiji" = "ฟิจิ";
+"Finnish" = "ฟินแลนด์";
+"French" = "ฝรั่งเศส";
+"Georgian" = "จอร์เจีย";
+"German" = "เยอรมัน";
+"Greek" = "กรีก";
+"Gujarati" = "คุชราต";
+"Hebrew" = "ภาษาฮิบรู";
+"Hindi" = "ภาษาฮินดี";
+"Hungarian" = "ฮังการี";
+"Icelandic" = "ไอซ์แลนด์";
+"Indonesian" = "อินโดนีเซีย";
+"Irish" = "ไอริช";
+"Italian" = "อิตาลี";
+"Japanese" = "ญี่ปุ่น";
+"Javanese" = "ชวา";
+"Korean" = "เกาหลี";
+"Latin" = "ละติน";
+"Latvian" = "ลัตเวีย";
+"Lithuanian" = "ลิทัวเนีย";
+"Macedonian" = "มาซิโดเนีย";
+"Malay" = "มาเลย์";
+"Malayalam" = "ภาษามาลายาลัม";
+"Maltese" = "มอลตา";
+"Maori" = "เมารี";
+"Marathi" = "มราฐี";
+"Mongolian" = "มองโกเลีย";
+"Nepali" = "เนปาล";
+"Norwegian" = "นอร์เวย์";
+"Persian" = "เปอร์เซีย";
+"Polish" = "โปแลนด์";
+"Portuguese" = "โปรตุเกส";
+"Punjabi" = "ปัญจาบ";
+"Quechua" = "เกชัว";
+"Romanian" = "โรมาเนีย";
+"Russian" = "รัสเซีย";
+"Samoan" = "ซามัว";
+"Serbian" = "เซอร์เบีย";
+"Slovak" = "สโลวัก";
+"Slovenian" = "สโลวีเนีย";
+"Spanish" = "สเปน";
+"Swahili" = "สวาฮิลี";
+"Swedish" = "สวีเดน";
+"Tamil" = "ทมิฬ";
+"Tatar" = "ตาตาร์";
+"Telugu" = "เตลูกู";
+"Thai" = "ไทย";
+"Tibetan" = "ทิเบต";
+"Tonga" = "ตองกา";
+"Turkish" = "ตุรกี";
+"Ukrainian" = "ยูเครน";
+"Urdu" = "อูรดู";
+"Uzbek" = "อุซเบก";
+"Vietnamese" = "เวียดนาม";
+"Welsh" = "เวลส์";
+"Xhosa" = "ภาษาโคซา";
+
+
+/// Missing
+"Password" = "รหัสผ่าน";
+"App password" = "รหัสผ่านแอพ";
+"With this option you can lock with passcode your app" = "ด้วยตัวเลือกนี้คุณจะสามารถล็อกด้วยรหัสผ่านแอพของคุณ";
+"Select Print Size" = "เลือกขนาดการพิมพ์";
+"Create new document" = "สร้างเอกสารใหม่";
+"Type new document name below." = "พิมพ์ชื่อเอกสารใหม่ด้านล่าง";
+"The folder already exist, please use another name." = "โฟลเดอร์นี้มีอยู่แล้ว กรุณาใช้ชื่ออื่น";
+
+
+"Uploading" = "กำลังอัปโหลด";
+"Share to..." = "แชร์ไปที่...";
+"Failed authorise Google user" = "ล้มเหลวในการอนุญาตผู้ใช้ Google";
+"Are you sure to logoff Google account?" = "คุณแน่ใจว่าจะออก";
+"Legal" = "ถูกกฎหมาย";
+"Edit" = "แก้ไข";
+"Move to..." = "ย้ายไปที่...";
+"Image" = "ภาพ";
+"Chinese (Traditional)" = "ภาษาจีน (ดั้งเดิม)";
+"Select Paper Size" = "เลือกขนาดกระดาษ";
+"Downloaded" = "ดาวน์โหลดแล้ว";
+"Save" = "บันทึก";
+"Log Out" = "ออกจากระบบ";
+"Log In" = "เข้าสู่ระบบ";
+"Failed authorise Google user" = "ล้มเหลวในการอนุญาตผู้ใช้ Google";
+"checkOutAppMessageKey" = "เข้าดูแอพพลิเคชั่นที่น่าทึ่งนี้สำหรับอุปกรณ์ iOS ของคุณ";
+"Area" = "พื้นที่";
+"Camera Access Denied! Go to iOS Settings and turn on Camera Access for this app." = "การเข้าถึงกล้องถูกปฏิเสธ! ไปที่การตั้งค่า iOS และเปิดการเข้าถึงกล้องสำหรับแอปนี้";

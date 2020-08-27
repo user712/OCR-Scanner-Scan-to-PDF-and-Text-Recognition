@@ -1,0 +1,230 @@
+/* 
+  Localizable.strings
+  Scanner
+
+   on 1/18/17.
+   
+*/
+"Scanner" = "Tarayıcı";
+
+
+///
+"E-mail" = "E-posta";
+"Photos" = "Fotoğraflar";
+
+///
+"OK" = "TAMAM";
+"Cancel" = "İptal";
+"Done" = "Bitti";
+
+///
+"Missing HTTP Response" = "Eksik HTTP Yanıtı";
+
+///
+"Have you heard about iScanner?" = "%@ uygulamasını duydunuz mu?";
+"This is what they sound like." = "App Store’dan indirme linki.";
+"Saved" = "Kaydedildi";
+"Please Log in to iCloud" = "Lütfen iCloud’a Giriş Yapın";
+"Cannot find correct folder" = "Doğru klasör bulunamıyor";
+"Correct folder found" = "Doğru klasör bulundu ";
+"Create folder successfully" = "Yeni klasör başarılı şekilde oluşturuldu";
+"Create folder failed" = "Yeni klasör oluşturulamadı";
+"Files are not in correct type" = "Yanlış dosya biçimi";
+
+///
+"New Document PDF Name" = "Yeni PDF İsmi";
+"New" = "Yeni";
+"Folder" = "Klasör";
+"New Folder" = "Yeni Klasör";
+"Create new folder" = "Yeni klasör oluştur ";
+"Type new folder name below." = "Yeni klasör ismini yazın";
+"Create" = "Oluştur";
+"Document" = "Belge";
+
+
+///
+"Recognition" = "Tanıma";
+"Install" = "Kur";
+"Download" = "İndir";
+"OCR" = "OCR";
+"Show as text" = "Metin olarak göster";
+"Delete document" = "Belgeyi sil";
+"Text copied to clipboard" = "Metin panoya kopyalandı";
+"Choose Language" = "Dili Seç";
+
+///
+"Email" = "E-posta";
+"Send as jpg" = "jpg olarak gönder";
+"Open as..." = "…. Olarak aç";
+"Print" = "Yazdır";
+
+///
+"pages" = "sayfa";
+"files" = "dosyalar";
+
+///
+"Are you sure?" = "Emin misiniz?";
+"Selected file(s) will be deleted permanently!" = "Seçilen dosya(lar) kalıcı olarak silinecektir!";
+"Yes, delete it!" = "Evet, sil!";
+"Deleted!" = "Silindi!";
+"Your file(s) has been deleted!" = "Dosya(ları)nız silindi!";
+"Nothing to delete" = "Silinecek bir şey yok";
+"files was moved" = "Dosyalar taşındı";
+"Your image has been saved to Photo Library!" = "Resminiz kaydedildi!";
+"Please press" = "Lütfen şu öğeye basın";
+
+///
+"PDF Text" = "PDF Metni";
+"Text" = "Metin";
+
+///
+"Lock App" = "Uygulamayı Kilitle";
+"Paper Size" = "Kağıt Boyutu";
+"Show Tutorial" = "Özel Dersi Göster";
+"Support" = "Destek";
+"Rate App" = "Uygulamaya Puan Ver";
+"Share App" = "Uygulamayı Paylaş";
+"App Settings" = "Uygulama Ayarları";
+"Others" = "Diğerleri";
+
+///
+"Off" = "Kapalı";
+"On" = "Açık";
+
+///
+"Choice Filter Color" = "Filtre Rengini Seçin";
+"Color" = "Renk";
+"Grayscale" = "Gri Tonlama";
+"Black and White" = "Siyah ve Beyaz";
+
+///
+"Choice Size" = "Boyutu Seç";
+"Letter" = "Mektup";
+"Business Card" = "Kartvizit";
+
+///
+"Enter passcode" = "Şifreyi Gir";
+"Confirm the passcode" = "Şifreyi Onayla";
+"Pincode Title3" = "Eski Şifreyi Gir ";
+"Pincode Title4" = "Yeni Şifreyi Gir ";
+"Incorrect passcode" = "Yanlış Şifre";
+
+"Settings" = "Ayarlar";
+
+///
+"Move" = "Taşı";
+"Share" = "Paylaş";
+"Merge" = "Birleştir";
+"Delete" = "Sil";
+
+"Languages" = "Diller";
+"Afrikaans" = "Afrikanca";
+"Albanian" = "Arnavutça";
+"Arabic" = "Arapça";
+"Armenian" = "Ermenice";
+"Basque" = "Baskça";
+"Bengali" = "Bengalce";
+"Bulgarian" = "Bulgarca";
+"Catalan" = "Katalanca";
+"Cambodian" = "Kamboçya";
+"Chinese (Mandarin)" = "Çince (Mandarin)";
+"Croatian" = "Hırvatça";
+"Czech" = "Çekçe";
+"Danish" = "Danca";
+"Dutch" = "Felemenkçe";
+"English" = "İngilizce";
+"Estonian" = "Estonca";
+"Fiji" = "Fiji";
+"Finnish" = "Fince";
+"French" = "Fransızca";
+"Georgian" = "Gürcüce";
+"German" = "Almanca";
+"Greek" = "Yunanca";
+"Gujarati" = "Guceratça";
+"Hebrew" = "İbranice";
+"Hindi" = "Hintçe";
+"Hungarian" = "Macarca";
+"Icelandic" = "İzlandaca";
+"Indonesian" = "Endonezce";
+"Irish" = "İrlandaca";
+"Italian" = "İtalyanca";
+"Japanese" = "Japonya";
+"Javanese" = "Cavaca";
+"Korean" = "Korece";
+"Latin" = "Latince";
+"Latvian" = "Letonca";
+"Lithuanian" = "Litvanca";
+"Macedonian" = "Makedonca";
+"Malay" = "Malayca";
+"Malayalam" = "Malayalam";
+"Maltese" = "Maltaca";
+"Maori" = "Maori";
+"Marathi" = "Marati";
+"Mongolian" = "Moğolca";
+"Nepali" = "Nepali";
+"Norwegian" = "Norveççe";
+"Persian" = "Farsça";
+"Polish" = "Leh";
+"Portuguese" = "Portekizce";
+"Punjabi" = "Pencapça";
+"Quechua" = "Keçuva";
+"Romanian" = "Romence";
+"Russian" = "Rusça";
+"Samoan" = "Samoaca";
+"Serbian" = "Sırpça";
+"Slovak" = "Slovak";
+"Slovenian" = "Slovence";
+"Spanish" = "İspanyolca";
+"Swahili" = "Swahili";
+"Swedish" = "İsveççe";
+"Tamil" = "Tamil";
+"Tatar" = "Tatar";
+"Telugu" = "Telugu";
+"Thai" = "Tayca";
+"Tibetan" = "Tibetçe";
+"Tonga" = "Tonga";
+"Turkish" = "Türkçe";
+"Ukrainian" = "Ukraynaca";
+"Urdu" = "Urdu";
+"Uzbek" = "Özbekçe";
+"Vietnamese" = "Vietnamca";
+"Welsh" = "Galce";
+"Xhosa" = "Xhosa";
+
+
+/// Missing
+"Password" = "Şifre";
+"App password" = "Uygulama şifresi";
+"With this option you can lock with passcode your app" = "Bu seçenekle uygulamanızı şifreyle koruyabilirsiniz ";
+"Select Print Size" = "Baskı Boyutunu Seç";
+"Create new document" = "Yeni belge oluştur ";
+"Type new document name below." = "Yeni belge ismini aşağıya yazın.";
+"The folder already exist, please use another name." = "Klasör halihazırda mevcut, lütfen başka bir isim kullanın.";
+
+
+"Uploading" = "Yükleniyor";
+"Share to..." = "Paylaş...";
+"Failed authorise Google user" = " Google kullanıcısı tanımlanamadı";
+"Are you sure to logoff Google account?" = "Google hesabından çıkmak istediğinizden emin misiniz?";
+"Logged In" = "Giriş Yapıldı";
+"Logged Off" = "Çıkış Yapıldı";
+"Log Out" = "Çık";
+"Log In" = "Giriş Yap";
+"Move to..." = "Taşı...";
+"Auto" = "Otomatik";
+"Find" = "Bul";
+"All" = "Hepsi";
+"Your picture has been deleted!" = "Resminiz silindi!";
+"Legal" = "Hukuki";
+"Folder name" = "Klasör ismi";
+"Here is the link to download this app from the App Store." = "Bu uygulamayı App Store’dan indirme bağlantısı burada.";
+"Save" = "Kaydet";
+"Try again" = "Yeniden dene";
+"Edit" = "Düzenle";
+"Image" = "Resim";
+"Chinese (Traditional)" = "Çince (Geleneksel)";
+"Select Paper Size" = "Kağıt Boyutunu Seçin ";
+"Downloaded" = "İndirildi";
+"checkOutAppMessageKey" = " iOS cihazlar için harika uygulamaya göz atın.";
+"Area" = "Alan";
+"Camera Access Denied! Go to iOS Settings and turn on Camera Access for this app." = "Kamera Erişimi Reddedildi! IOS Ayarları'na gidin ve bu uygulama için Kamera Erişimi'ni açın.";

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="X6c-QB-FKl">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="MainViewController" customModule="ZCamera" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jko-Ib-BQN">
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="e0Z-1z-QT9"/>
+                                </constraints>
+                                <items>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="mqe-1Q-kCm"/>
+                                    <barButtonItem systemItem="camera" id="8zv-KR-fX9">
+                                        <connections>
+                                            <action selector="cameraTapped:" destination="BYZ-38-t0r" id="NID-JW-jaw"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="PL2-Yq-SQI"/>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="jko-Ib-BQN" secondAttribute="bottom" id="3Qc-sw-AeB"/>
+                            <constraint firstAttribute="trailing" secondItem="jko-Ib-BQN" secondAttribute="trailing" id="WoD-Zk-hN7"/>
+                            <constraint firstItem="jko-Ib-BQN" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="pya-UH-z5S"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--Camera View Controller-->
+        <scene sceneID="qHJ-uY-Be9">
+            <objects>
+                <viewController storyboardIdentifier="CameraViewController" id="66y-mL-65j" customClass="CameraViewController" customModule="ZCamera" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="isf-md-hhh"/>
+                        <viewControllerLayoutGuide type="bottom" id="Xgr-Xg-3na"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Diz-X4-sIi">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Ym-Zs-KaS">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="Knn-cT-76A"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jRN-dg-eZz">
+                                <rect key="frame" x="0.0" y="601" width="375" height="66"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jws-xv-Rqc">
+                                        <rect key="frame" x="157" y="3" width="60" height="60"/>
+                                        <state key="normal" image="shot"/>
+                                        <connections>
+                                            <action selector="takephotoTapped" destination="66y-mL-65j" eventType="touchUpInside" id="SeK-oo-iOq"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="jws-xv-Rqc" firstAttribute="centerY" secondItem="jRN-dg-eZz" secondAttribute="centerY" id="FG8-7w-Kdc"/>
+                                    <constraint firstAttribute="height" constant="66" id="Y60-xQ-Vp1"/>
+                                    <constraint firstItem="jws-xv-Rqc" firstAttribute="centerX" secondItem="jRN-dg-eZz" secondAttribute="centerX" id="l2e-a5-R7S"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="81h-Un-UME" customClass="CameraView" customModule="ZCamera" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="60" width="375" height="541"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="3Ym-Zs-KaS" firstAttribute="top" secondItem="Diz-X4-sIi" secondAttribute="top" id="0gG-ms-Gh4"/>
+                            <constraint firstItem="81h-Un-UME" firstAttribute="top" secondItem="3Ym-Zs-KaS" secondAttribute="bottom" id="2CX-Cj-Ul0"/>
+                            <constraint firstAttribute="trailing" secondItem="3Ym-Zs-KaS" secondAttribute="trailing" id="90m-hM-0Ld"/>
+                            <constraint firstItem="jRN-dg-eZz" firstAttribute="top" secondItem="81h-Un-UME" secondAttribute="bottom" id="DYa-fh-qco"/>
+                            <constraint firstAttribute="trailing" secondItem="81h-Un-UME" secondAttribute="trailing" id="HQF-Ty-XpQ"/>
+                            <constraint firstItem="3Ym-Zs-KaS" firstAttribute="leading" secondItem="Diz-X4-sIi" secondAttribute="leading" id="IkT-VX-srZ"/>
+                            <constraint firstItem="Xgr-Xg-3na" firstAttribute="top" secondItem="jRN-dg-eZz" secondAttribute="bottom" id="MoO-CJ-UoX"/>
+                            <constraint firstItem="81h-Un-UME" firstAttribute="leading" secondItem="Diz-X4-sIi" secondAttribute="leading" id="NYi-XV-g1g"/>
+                            <constraint firstItem="jRN-dg-eZz" firstAttribute="leading" secondItem="Diz-X4-sIi" secondAttribute="leading" id="VFi-jI-TBZ"/>
+                            <constraint firstAttribute="trailing" secondItem="jRN-dg-eZz" secondAttribute="trailing" id="vUf-P3-Z2W"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="cameraView" destination="81h-Un-UME" id="vuD-Bz-9sp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AlG-C6-3h4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="949.60000000000002" y="152.47376311844079"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="F6L-iU-dNe">
+            <objects>
+                <viewController id="X6c-QB-FKl" customClass="ViewController" customModule="ZCamera" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1zl-9s-aUV"/>
+                        <viewControllerLayoutGuide type="bottom" id="6sk-fy-aZ8"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="HP9-NI-3qd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8xy-38-Go7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1076" y="826"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="shot" width="60" height="60"/>
+    </resources>
+</document>

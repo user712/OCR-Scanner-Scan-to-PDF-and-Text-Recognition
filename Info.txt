@@ -1,0 +1,7 @@
+UPDATE EVERNOTE Framework:
+
+1. JUST DOWNLOAD from here(https://github.com/evernote/evernote-cloud-sdk-ios) the lastest version
+2. Read this: https://github.com/evernote/evernote-cloud-sdk-ios/blob/master/Getting_Started.md
+3. OR JUST DO THIS: After ‚Äú1‚Äù, Go to ‚Äúscripts‚Äù folder, run via terminal ./build_framework.sh, after that copy from ‚ÄúProducts‚Äù folder the ‚ÄúENSDK.framework‚Äù and ‚ÄúENSDKResources.bundle‚Äù to ‚ÄúiScanner/iScanner/Frameworks/Evernote‚Äù
+
+Good luck and have fun!

@@ -1,0 +1,240 @@
+/* 
+  Localizable.strings
+  Scanner
+
+   on 1/18/17.
+   
+*/
+
+///
+"Scanner" = "Scanner";
+
+
+///
+"E-mail" = "Eメール";
+"Photos" = "写真";
+
+///
+"OK" = "OK";
+"Cancel" = "キャンセル";
+"Done" = "完了";
+
+///
+"Missing HTTP Response" = "HTTPのレスポンスがありません";
+
+///
+"Have you heard about iScanner?" = "%@というアプリをご存知ですか？";
+"This is what they sound like." = "App Storeからダウンロードするリンクはこちらです。";
+"Saved" = "保存済み";
+"Please Log in to iCloud" = "iCloudにログインしてください。";
+"Cannot find correct folder" = "正しいフォルダが見つかりません。";
+"Correct folder found" = "正しいフォルダが見つかりました。";
+"Create folder successfully" = "新規フォルダが作成されました。";
+"Create folder failed" = "新規フォルダの作成に失敗しました。";
+"Files are not in correct type" = "ファイル形式が正しくありません。";
+
+///
+"New Document PDF Name" = "新しいPDFファイルの名前";
+"New" = "新規";
+"Folder" = "フォルダ";
+"New Folder" = "新規フォルダ";
+"Create new folder" = "新規フォルダの作成";
+"Type new folder name below." = "新規フォルダの名前を入力してください。";
+"Create" = "作成";
+"Document" = "ドキュメント";
+
+
+///
+"Recognition" = "テキスト認識";
+"Install" = "インストール";
+"Download" = "ダウンロード";
+"OCR" = "OCR";
+"Show as text" = "テキストとして表示する";
+"Delete document" = "ドキュメントを削除する";
+"Text copied to clipboard" = "テキストはクリップボードにコピーされました。";
+"Choose Language" = "言語の選択";
+
+///
+"Email" = "Eメール";
+"Send as jpg" = "jpg形式で送信する";
+"Open as..." = "次の形式でファイルを開く...";
+"Print" = "印刷";
+
+///
+"pages" = "ページ";
+"files" = "ファイル";
+
+///
+"Are you sure?" = "本当によろしいですか？";
+"Selected file(s) will be deleted permanently!" = "選択されたファイルは完全に削除されます！";
+"Yes, delete it!" = "はい、削除します！";
+"Deleted!" = "削除完了！";
+"Your file(s) has been deleted!" = "ファイルは削除されました！";
+"Nothing to delete" = "削除するものがありません。";
+"files was moved" = "ファイルは移動されました。";
+"Your image has been saved to Photo Library!" = "画像が保存されました。";
+"Please press" = "キャンセルを押してください。";
+
+///
+"PDF Text" = "PDFテキスト";
+"Text" = "テキスト";
+
+///
+"Lock App" = "アプリのロック";
+"Paper Size" = "用紙サイズ";
+"Show Tutorial" = "チュートリアルの表示";
+"Support" = "サポート";
+"Rate App" = "アプリを評価する";
+"Share App" = "アプリをシェアする";
+"App Settings" = "アプリの設定";
+"Others" = "その他";
+
+///
+"Off" = "オフ";
+"On" = "オン";
+
+///
+"Are you sure?" = "本当によろしいですか？";
+"Selected picture will be deleted!" = "選択された写真は削除されます！";
+"Yes, delete it!" = "はい、削除します！";
+"Deleted!" = "削除完了！";
+"Your picture has been deleted!" = "写真は削除されました！";
+
+///
+"Choice Filter Color" = "フィルター色の選択";
+"Color" = "カラー";
+"Grayscale" = "グレースケール";
+"Black and White" = "白黒";
+
+///
+"Choice Size" = "サイズの選択";
+"Letter" = "レターサイズ";
+"Business Card" = "名刺サイズ";
+
+///
+"Enter passcode" = "パスワードを入力してください。";
+"Confirm the passcode" = "パスワードの確認";
+"Pincode Title3" = "古いパスワードを入力してください。";
+"Pincode Title4" = "新しいパスワードを入力ください。";
+"Incorrect passcode" = "パスワードが違います。";
+
+"Settings" = "設定";
+
+///
+"Move" = "移動";
+"Share" = "シェア";
+"Merge" = "結合";
+"Delete" = "削除";
+
+"Languages" = "言語";
+"Afrikaans" = "アフリカーンス語";
+"Albanian" = "アルバニア語";
+"Arabic" = "アラビア語";
+"Armenian" = "アルメニア語";
+"Basque" = "バスク語";
+"Bengali" = "ベンガル語";
+"Bulgarian" = "ブルガリア語";
+"Catalan" = "カタローニャ語";
+"Cambodian" = "カンボジア語";
+"Chinese (Mandarin)" = "中国語（北京語）";
+"Croatian" = "クロアチア語";
+"Czech" = "チェコ語";
+"Danish" = "デンマーク語";
+"Dutch" = "オランダ語";
+"English" = "英語";
+"Estonian" = "エストニア語";
+"Fiji" = "フィジー語";
+"Finnish" = "フィンランド語";
+"French" = "フランス語";
+"Georgian" = "ジョージア語";
+"German" = "ドイツ語";
+"Greek" = "ギリシャ語";
+"Gujarati" = "グジャラート語";
+"Hebrew" = "ヘブライ語";
+"Hindi" = "ヒンディ語";
+"Hungarian" = "ハンガリー語";
+"Icelandic" = "アイスランド語";
+"Indonesian" = "インドネシア語";
+"Irish" = "アイルランド語";
+"Italian" = "イタリア語";
+"Japanese" = "日本語";
+"Javanese" = "ジャワ語";
+"Korean" = "韓国語";
+"Latin" = "ラテン語";
+"Latvian" = "ラトビア語";
+"Lithuanian" = "リトアニア語";
+"Macedonian" = "マケドニア語";
+"Malay" = "マレー語";
+"Malayalam" = "マラヤーラム語";
+"Maltese" = "マルタ語";
+"Maori" = "マオリ語";
+"Marathi" = "マラーティー語";
+"Mongolian" = "モンゴル語";
+"Nepali" = "ネパール語";
+"Norwegian" = "ノルウェー語";
+"Persian" = "ペルシャ語";
+"Polish" = "ポーランド語";
+"Portuguese" = "ポルトガル語";
+"Punjabi" = "パンジャブ語";
+"Quechua" = "ケチュア語";
+"Romanian" = "ルーマニア語";
+"Russian" = "ロシア語";
+"Samoan" = "サモア語";
+"Serbian" = "セルビア語";
+"Slovak" = "スロバキア語";
+"Slovenian" = "スロベニア語";
+"Spanish" = "スペイン語";
+"Swahili" = "スワヒリ語";
+"Swedish" = "スウェーデン語";
+"Tamil" = "タミル語";
+"Tatar" = "タタール語";
+"Telugu" = "テルグ語";
+"Thai" = "タイ語";
+"Tibetan" = "チベット語";
+"Tonga" = "トンガ語";
+"Turkish" = "トルコ語";
+"Ukrainian" = "ウクライナ語";
+"Urdu" = "ウルドゥ語";
+"Uzbek" = "ウズベク語";
+"Vietnamese" = "ベトナム語";
+"Welsh" = "ウェールズ語";
+"Xhosa" = "コサ語";
+
+
+/// Missing
+"Password" = "パスワード";
+"App password" = "アプリのパスワード";
+"With this option you can lock with passcode your app" = "このオプションを使うと、パスワードでこのアプリをロックすることができます。";
+"Select Print Size" = "印刷サイズの選択";
+"Create new document" = "新規ドキュメントの作成";
+"Type new document name below." = "下に新規ドキュメントの名前を入力してください。";
+"The folder already exist, please use another name." = "この名前のフォルダはすでに存在しています。違う名前をお使いください。";
+
+
+"Uploading" = "アップロード中";
+"Share to..." = "シェアする…";
+"Failed authorise Google user" = "Google ユーザーの認証に失敗しました。";
+"Are you sure to logoff Google account?" = "本当に Google アカウントからログオフしますか？";
+"Logged In" = "ログイン済み";
+"Logged Off" = "ログオフ済み";
+"Log Out" = "ログアウト";
+"Log In" = "ログイン";
+"Move to..." = "移動する…";
+"Auto" = "自動";
+"Find" = "検索";
+"All" = "全て";
+"Your picture has been deleted!" = "写真が削除されました！";
+"Legal" = "法的記載事項";
+"Folder name" = "フォルダ名";
+"Here is the link to download this app from the App Store." = "このリンクを使って、App Store からこのアプリをダウンロードすることができます。";
+"Save" = "保存";
+"Try again" = "再試行";
+"Edit" = "編集";
+"Image" = "画像";
+"Chinese (Traditional)" = "中国語（繁体）";
+"Select Paper Size" = "用紙サイズの選択";
+"Downloaded" = "ダウンロード済み";
+"Failed authorise Google user" = "Google ユーザーの認証に失敗しました。";
+"checkOutAppMessageKey" = "この素敵なアプリをiOS端末でチェックしてね。";
+"Area" = "範囲";
+"Camera Access Denied! Go to iOS Settings and turn on Camera Access for this app." = "カメラアクセスが拒否されました！ iOS設定に移動し、このアプリのカメラアクセスをオンにします。";

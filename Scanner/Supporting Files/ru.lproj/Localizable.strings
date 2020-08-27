@@ -1,0 +1,231 @@
+/* 
+  Localizable.strings
+  Scanner
+
+   on 1/18/17.
+   
+*/
+
+///
+"Scanner" = "Сканер";
+
+
+///
+"E-mail" = "E-mail";
+"Photos" = "Фото";
+
+///
+"OK" = "OK";
+"Cancel" = "Отмена";
+"Done" = "Готово";
+
+///
+"Missing HTTP Response" = "Нет HTTP-ответа";
+
+///
+"Have you heard about iScanner?" = "Вы что-либо слышали о %@ app?";
+"Here is the link where you can download this app from the App Store." = "Здесь ссылка, по которой Вы можете скачать это приложение с App Store.";
+"Saved" = "Сохранено";
+"Please Log in to iCloud" = "Пожалуйста, войдите в iCloud";
+"Cannot find correct folder" = "Невозможно найти правильную папку ";
+"Correct folder found" = "Правильная папка найдена";
+"Create folder successfully" = "Создана новая папка";
+"Create folder failed" = "Не удалось создать новую папку";
+"Files are not in correct type" = "Неправильный формат файла";
+
+///
+"New Document PDF Name" = "Имя нового PDF документа";
+"New" = "Новый";
+"Folder" = "Папка";
+"New Folder" = "Новая папка";
+"Create new folder" = "Создать новую папку";
+"Type new folder name below." = "Укажите имя новой папки";
+"Create" = "Создать";
+"Document" = "Документ";
+
+
+///
+"Recognition" = "Распознавание";
+"Install" = "Установить";
+"Download" = "Загрузить";
+"OCR" = "OCR";
+"Show as text" = "Показать как текст";
+"Delete document" = "Удалить документ";
+"Text copied to clipboard" = "Текст скопирован в буфер обмена";
+"Choose Language" = "Выбрать язык";
+
+///
+"Email" = "E-mail";
+"Send as jpg" = "Отправить как jpg";
+"Open as..." = "Открыть как...";
+"Print" = "Печать";
+
+///
+"pages" = "стр.";
+"files" = "файлы";
+
+///
+"Are you sure?" = "Вы уверены?";
+"Selected file(s) will be deleted permanently!" = "Выбранный(е) файл(ы) немедленно будет(ут)!";
+"Yes, delete it!" = "Да, удалить!";
+"Deleted!" = "Удалено!";
+"Your file(s) has been deleted!" = "Ваш(и) файл(ы) был(и) удален(ы)!";
+"Nothing to delete" = "Нечего удалять";
+"files was moved" = "Файлы были перемещены";
+"Your image has been saved to Photo Library!" = "Изображение сохранено";
+"Please press" = "Пожалуйста, нажмите";
+
+///
+"PDF Text" = "PDF текст";
+"Text" = "Текст";
+
+///
+"Lock App" = "Заблокировать приложение";
+"Paper Size" = "Размер листа";
+"Show Tutorial" = "Показать инструкцию";
+"Support" = "Поддержка";
+"Rate App" = "Оценить приложение";
+"Share App" = "Поделиться приложением";
+"App Settings" = "Настройки приложения";
+"Others" = "Другие";
+
+///
+"Off" = "Выкл.";
+"On" = "Вкл.";
+
+///
+"Choice Filter Color" = "Выберите цвет фильтра";
+"Color" = "Цвет";
+"Grayscale" = "Оттенки серого";
+"Black and White" = "Черно-белый";
+
+///
+"Choice Size" = "Выберите размер";
+"Letter" = "Letter";
+"Business Card" = "Business Card";
+
+///
+"Enter passcode" = "Введите пароль";
+"Confirm the passcode" = "Подтвердите пароль";
+"Pincode Title 3" = "Введите старый пароль";
+"Pincode Title 4" = "Введите новый пароль";
+"Incorrect passcode" = "Неправильный пароль";
+
+"Settings" = "Настройки";
+
+///
+"Move" = "Переместить";
+"Share" = "Поделиться";
+"Merge" = "Объединить";
+"Delete" = "Удалить";
+
+"Languages" = "Языки";
+"Afrikaans" = "Африкаанс";
+"Albanian" = "Албанский";
+"Arabic" = "Арабский";
+"Armenian" = "Армянский";
+"Basque" = "Баскский";
+"Bengali" = "Бенгальский";
+"Bulgarian" = "Болгарский";
+"Catalan" = "Каталонский";
+"Cambodian" = "Камбоджийский";
+"Chinese (Mandarin)" = "Китайский (Мандарин)";
+"Croatian" = "Хорватский";
+"Czech" = "Чешский";
+"Danish" = "Датский";
+"Dutch" = "Голландский";
+"English" = "Английский";
+"Estonian" = "Эстонский";
+"Fiji" = "Фиджи";
+"Finnish" = "Финский";
+"French" = "Французский";
+"Georgian" = "Грузинский";
+"German" = "Немецкий";
+"Greek" = "Грецкий";
+"Gujarati" = "Гуджарати";
+"Hebrew" = "Иврит";
+"Hindi" = "Хинди";
+"Hungarian" = "Венгерский";
+"Icelandic" = "Исландский";
+"Indonesian" = "Индонезийский";
+"Irish" = "Ирландский";
+"Italian" = "Итальянский";
+"Japanese" = "Японский";
+"Javanese" = "Яванский";
+"Korean" = "Корейский";
+"Latin" = "Латинский";
+"Latvian" = "Латышский";
+"Lithuanian" = "Литовский";
+"Macedonian" = "Македонский";
+"Malay" = "Малайский";
+"Malayalam" = "Малаялам";
+"Maltese" = "Мальтийский";
+"Maori" = "Маоли";
+"Marathi" = "Маратхи";
+"Mongolian" = "Монгольский";
+"Nepali" = "Непальский";
+"Norwegian" = "Норвежский";
+"Persian" = "Персидский";
+"Polish" = "Польский";
+"Portuguese" = "Португальский";
+"Punjabi" = "Панджаби";
+"Quechua" = "Кечуа";
+"Romanian" = "Румынский";
+"Russian" = "Русский";
+"Samoan" = "Самоанский";
+"Serbian" = "Сербский";
+"Slovak" = "Словацкий";
+"Slovenian" = "Словенский";
+"Spanish" = "Испанский";
+"Swahili" = "Суахили";
+"Swedish" = "Шведский";
+"Tamil" = "Тамильский";
+"Tatar" = "Татарский";
+"Telugu" = "Телугу";
+"Thai" = "Тайский";
+"Tibetan" = "Тибетский";
+"Tonga" = "Тонганский";
+"Turkish" = "Турецкий";
+"Ukrainian" = "Украинский";
+"Urdu" = "Урду";
+"Uzbek" = "Узбекский";
+"Vietnamese" = "Вьетнамский";
+"Welsh" = "Уэльский";
+"Xhosa" = "Коса";
+
+
+/// Missing
+"Password" = "Пароль";
+"App password" = "Пароль приложения";
+"With this option you can lock with passcode your app" = "С помощью этой опции вы можете защитить свое приложение паролем";
+"Select Print Size" = "Выберите размер печати";
+"Create new document" = "Создать новый документ";
+"Type new document name below." = "Введите ниже название нового документа.";
+"The folder already exist, please use another name." = "Папка с таким именем уже существует, пожалуйста, используйте другое имя папки.";
+
+
+"Uploading" = "Загрузка";
+"Share to..." = "Поделиться с...";
+"Failed authorise Google user" = "Не удалось авторизоваться в Google";
+"Are you sure to logoff Google account?" = "Вы точно хотите выйти из учетной записи Google?";
+"Logged In" = "Вход произведен";
+"Logged Off" = "Вход не произведен";
+"Log Out" = "Выход";
+"Log In" = "Вход";
+"Move to..." = "Переместите в...";
+"Auto" = "Авто";
+"Find" = "Найти";
+"All" = "Все";
+"Your picture has been deleted!" = "Ваше изображение было удалено!";
+"Legal" = "Право";
+"Folder name" = "Имя папки";
+"Here is the link to download this app from the App Store." = "Вот ссылка для загрузки этого приложения с App Store.";
+"Save" = "Сохранить";
+"Try again" = "Попробуйте снова";
+"Edit" = "Редактировать";
+"Image" = "Изображение";
+"Chinese (Traditional)" = "Китайский традиционный";
+"Select Paper Size" = "Выберите размер страницы";
+"Downloaded" = "Загружено";
+"checkOutAppMessageKey" = "Испытайте это удивительное приложение для вашего iOS устройства";
+"Area" = "Площадь";

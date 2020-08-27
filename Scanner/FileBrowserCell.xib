@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="FileBrowserCell" id="9MS-97-qBy" customClass="FileBrowserCell" customModule="Scanner" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="9MS-97-qBy" id="EYk-FD-axL">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="59.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mgc-km-sRK">
+                        <rect key="frame" x="8" y="9" width="42" height="42"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="42" id="DMZ-fY-Dwl"/>
+                            <constraint firstAttribute="width" constant="42" id="K8y-9d-vJL"/>
+                        </constraints>
+                        <state key="normal" image="documents"/>
+                        <connections>
+                            <action selector="addButtonPressed:" destination="9MS-97-qBy" eventType="touchUpInside" id="qpq-T7-FSS"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h6l-Pp-sxS">
+                        <rect key="frame" x="58" y="0.0" width="317" height="59.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Mgc-km-sRK" firstAttribute="centerY" secondItem="EYk-FD-axL" secondAttribute="centerY" id="4aF-MM-rOJ"/>
+                    <constraint firstItem="Mgc-km-sRK" firstAttribute="leading" secondItem="EYk-FD-axL" secondAttribute="leading" constant="8" id="Pih-cP-S2d"/>
+                    <constraint firstAttribute="trailing" secondItem="h6l-Pp-sxS" secondAttribute="trailing" id="jqT-NW-9NS"/>
+                    <constraint firstItem="h6l-Pp-sxS" firstAttribute="leading" secondItem="Mgc-km-sRK" secondAttribute="trailing" constant="8" id="nWS-3m-9Zr"/>
+                    <constraint firstAttribute="bottom" secondItem="h6l-Pp-sxS" secondAttribute="bottom" id="uO5-dQ-zkt"/>
+                    <constraint firstItem="h6l-Pp-sxS" firstAttribute="top" secondItem="EYk-FD-axL" secondAttribute="top" id="xnH-3y-Fcv"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="addButtonOutlet" destination="Mgc-km-sRK" id="t1d-dl-lcv"/>
+                <outlet property="folderNameLabel" destination="h6l-Pp-sxS" id="wX6-yj-33f"/>
+            </connections>
+            <point key="canvasLocation" x="33.5" y="54"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="documents" width="90" height="130"/>
+    </resources>
+</document>

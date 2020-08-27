@@ -1,0 +1,250 @@
+/* 
+  Localizable.strings
+  Scanner
+
+   on 1/18/17.
+   
+*/
+
+"Scanner" = "Scanner";
+
+///
+"Email" = "Email";
+"Photos" = "Photos";
+
+///
+"OK" = "OK";
+"Cancel" = "Cancel";
+"Done" = "Done";
+
+///
+"Missing HTTP Response" = "Missing HTTP Response";
+
+///
+"Have you heard about iScanner?" = "Have you heard about iScanner?";
+"This is what they sound like." = "This is what they sound like.";
+"Saved" = "Saved";
+"Please Log in to iCloud" = "Please Log in to iCloud";
+
+
+"Enter passcode" = "Enter passcode";
+"PasscodeLockEnterDescription" = "PasscodeLockEnterDescription";
+"Confirm the passcode" = "Confirm the passcode";
+"Incorrect passcode" = "Incorrect passcode";
+
+/// #1 De tradus
+"Folder can not be found" = "Folder can not be found";
+"Folder found" = "Folder found";
+"Folder created successfully" = "Folder created successfully";
+"Failure" = "Failure";
+"Incorrect type" = "Incorrect type";
+/// #1
+
+
+///
+"New Document PDF Name" = "New Document PDF Name";
+
+"New" = "New";
+"Folder" = "Folder";
+"New Folder" = "New Folder";
+"Create new folder" = "Create new folder";
+"Type new folder name below." = "Type new folder name below.";
+"Create" = "Create";
+"Document" = "Document";
+
+
+///
+"Recognition" = "Recognition";
+"Install" = "Install";
+"Download" = "Download";
+"OCR" = "OCR";
+"Show as text" = "Show as text";
+"Delete document" = "Delete document";
+"Text copied to clipboard" = "Text copied to clipboard";
+"Choose Language" = "Choose Language";
+
+
+
+///
+"Send as jpg" = "Send as jpg";
+"Open as..." = "Open as...";
+"Print" = "Print";
+
+///
+"pages" = "pages";
+"files" = "files";
+
+
+
+///
+"Are you sure?" = "Are you sure?";
+"Selected file(s) will be deleted permanently!" = "Selected file(s) will be deleted permanently!";
+"Yes, delete it!";
+"Deleted!" = "Deleted!";
+"Your file(s) has been deleted!" = "Your file(s) has been deleted!";
+"Nothing to delete" = "Nothing to delete";
+"files was moved" = "files was moved";
+"Your image has been saved to Photo Library!" = "Your image has been saved to Photo Library!";
+"Please press" = "Please press";
+
+
+///
+"PDF Text" = "PDF Text";
+"Text" = "Text";
+
+///
+"Lock App" = "Lock App";
+"Paper Size" = "Paper Size";
+"Show Tutorial" = "Show Tutorial";
+"Support" = "Support";
+"Rate App" = "Rate App";
+"Share App" = "Share App";
+"App Settings" = "App Settings";
+"Others" = "Others";
+
+
+///
+"Off" = "Off";
+"On" = "On";
+
+
+///
+"Choice Filter Color" = "Choice Filter Color";
+"Color" = "Color";
+"Grayscale" = "Grayscale";
+"Black and White" = "Black and White";
+
+///
+"Choose Size" = "Choose Size";
+"Letter" = "Letter";
+"Business Card" = "Business Card";
+
+
+///
+"Move" = "Move";
+"Share" = "Share";
+"Merge" = "Merge";
+"Delete" = "Delete";
+
+
+///
+"Settings" = "Settings";
+
+
+
+///
+"Language" = "Language";
+"Afrikaans" = "Afrikaans";
+"Albanian" = "Albanian";
+"Arabic" = "Arabic";
+"Armenian" = "Armenian";
+"Basque" = "Basque";
+"Bengali" = "Bengali";
+"Bulgarian" = "Bulgarian";
+"Catalan" = "Catalan";
+"Cambodian" = "Cambodian";
+"Chinese (Mandarin)" = "Chinese (Mandarin)";
+"Croatian" = "Croatian";
+"Czech" = "Czech";
+"Danish" = "Danish";
+"Dutch" = "Dutch";
+"English" = "English";
+"Estonian" = "Estonian";
+"Fiji" = "Fiji";
+"Finnish" = "Finnish";
+"French" = "French";
+"Georgian" = "Georgian";
+"German" = "German";
+"Greek" = "Greek";
+"Gujarati" = "Gujarati";
+"Hebrew" = "Hebrew";
+"Hindi" = "Hindi";
+"Hungarian" = "Hungarian";
+"Icelandic" = "Icelandic";
+"Indonesian" = "Indonesian";
+"Irish" = "Irish";
+"Italian" = "Italian";
+"Japanese" = "Japanese";
+"Javanese" = "Javanese";
+"Korean" = "Korean";
+"Latin" = "Latin";
+"Latvian" = "Latvian";
+"Lithuanian" = "Lithuanian";
+"Macedonian" = "Macedonian";
+"Malay" = "Malay";
+"Malayalam" = "Malayalam";
+"Maltese" = "Maltese";
+"Maori" = "Maori";
+"Marathi" = "Marathi";
+"Mongolian" = "Mongolian";
+"Nepali" = "Nepali";
+"Norwegian" = "Norwegian";
+"Persian" = "Persian";
+"Polish" = "Polish";
+"Portuguese" = "Portuguese";
+"Punjabi" = "Punjabi";
+"Quechua" = "Quechua";
+"Romanian" = "Romanian";
+"Russian" = "Russian";
+"Samoan" = "Samoan";
+"Serbian" = "Serbian";
+"Slovak" = "Slovak";
+"Slovenian" = "Slovenian";
+"Spanish" = "Spanish";
+"Swahili" = "Swahili";
+"Swedish" = "Swedish";
+"Tamil" = "Tamil";
+"Tatar" = "Tatar";
+"Telugu" = "Telugu";
+"Thai" = "Thai";
+"Tibetan" = "Tibetan";
+"Tonga" = "Tonga";
+"Turkish" = "Turkish";
+"Ukrainian" = "Ukrainian";
+"Urdu" = "Urdu";
+"Uzbek" = "Uzbek";
+"Vietnamese" = "Vietnamese";
+"Welsh" = "Welsh";
+"Xhosa" = "Xhosa";
+
+
+"Enter passcode" = "Enter passcode";
+"Confirm the passcode" = "Confirm the passcode";
+"Incorrect passcode" = "Incorrect passcode";
+
+
+
+/// nu-s
+"Password" = "Password";
+"App password" = "App password";
+"With this option you can lock with passcode your app" = "With this option you can lock with passcode your app";
+"Select Paper Size" = "Select Paper Size";
+"Create new document" = "Create new document";
+"Type new document name below." = "Type new document name below.";
+"The folder already exist, please use another name." = "The folder already exist, please use another name.";
+
+
+"Uploading" = "Uploading";
+"Share to..." = "Share to...";
+"Failed authorise Google user" = "Failed authorize Google user";
+"Are you sure to logoff Google account?" = "Are you sure to logoff Google account?";
+"Logged In" = "Logged In";
+"Logged Off" = "Logged Off";
+"Log Out" = "Log Out";
+"Log In" = "Log In";
+"Move to..." = "Move to...";
+"Auto" = "Auto";
+"Find" = "Find";
+"All" = "All";
+"Your picture has been deleted!" = "Your picture has been deleted!";
+"Legal" = "Legal";
+"Folder name" = "Folder name";
+"Languages" = "Languages";
+"Chinese (Traditional)" = "Chinese (Traditional)";
+"Edit" = "Edit";
+"Image" = "Image";
+"Downloaded" = "Downloaded";
+"Save" = "Save";
+"checkOutAppMessageKey" = "Check out this amazing application for your iOS device.";
+"Area" = "Area";
+"Camera Access Denied! Go to iOS Settings and turn on Camera Access for this app." = "Camera Access Denied! Go to iOS Settings and turn on Camera Access for this app.";

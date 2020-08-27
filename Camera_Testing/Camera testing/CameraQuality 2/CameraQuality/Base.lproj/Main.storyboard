@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Llo-6t-eEa">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Camera View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="CameraViewController" customModule="CameraQuality" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SYz-g8-x7X">
+                                <rect key="frame" x="157.5" y="599" width="60" height="60"/>
+                                <state key="normal" image="capture"/>
+                                <connections>
+                                    <action selector="takePhotoTapped" destination="BYZ-38-t0r" eventType="touchUpInside" id="aSR-YW-KEE"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="SYz-g8-x7X" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GCe-gs-27H"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="SYz-g8-x7X" secondAttribute="bottom" constant="8" id="ZsL-w9-iuq"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="takePictureButton" destination="SYz-g8-x7X" id="jPe-Ku-MJH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
+        </scene>
+        <!--Image View Controller-->
+        <scene sceneID="uck-oL-nX0">
+            <objects>
+                <viewController id="Llo-6t-eEa" customClass="GPUImageViewController" customModule="CameraQuality" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rcE-hl-bHu"/>
+                        <viewControllerLayoutGuide type="bottom" id="EXi-Ci-c5Z"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ILw-Yd-pIe">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SZ5-eo-Caa" customClass="RenderView" customModule="GPUImage">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NFU-ab-Jj0">
+                                        <rect key="frame" x="172" y="629" width="30" height="30"/>
+                                        <state key="normal" title="take"/>
+                                        <connections>
+                                            <action selector="takeTapped" destination="Llo-6t-eEa" eventType="touchUpInside" id="mer-WI-Gup"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="NFU-ab-Jj0" secondAttribute="bottom" constant="8" id="Ajf-e6-dW2"/>
+                                    <constraint firstItem="NFU-ab-Jj0" firstAttribute="centerX" secondItem="SZ5-eo-Caa" secondAttribute="centerX" id="dXq-1q-xfJ"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="SZ5-eo-Caa" firstAttribute="leading" secondItem="ILw-Yd-pIe" secondAttribute="leading" id="7eA-0T-DnC"/>
+                            <constraint firstAttribute="trailing" secondItem="SZ5-eo-Caa" secondAttribute="trailing" id="9NJ-ds-Cfl"/>
+                            <constraint firstItem="SZ5-eo-Caa" firstAttribute="top" secondItem="ILw-Yd-pIe" secondAttribute="top" id="bcX-Gh-qpO"/>
+                            <constraint firstItem="EXi-Ci-c5Z" firstAttribute="top" secondItem="SZ5-eo-Caa" secondAttribute="bottom" id="uca-oa-PBe"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="renderView" destination="SZ5-eo-Caa" id="YmF-vm-O38"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mBw-E2-bVP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="184.80000000000001" y="809.14542728635683"/>
+        </scene>
+        <!--Photo View Controller-->
+        <scene sceneID="w7z-AH-Atf">
+            <objects>
+                <viewController storyboardIdentifier="PhotoVC" id="5ur-x4-on2" customClass="PhotoViewController" customModule="CameraQuality" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Kdz-TG-mlZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="GRC-nd-bhK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="VWY-em-Ror">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="kQu-18-zPj">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aNo-uM-E47">
+                                <rect key="frame" x="16" y="20" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="goBack:" destination="5ur-x4-on2" eventType="touchUpInside" id="Vvx-pL-TaC"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="kQu-18-zPj" firstAttribute="leading" secondItem="VWY-em-Ror" secondAttribute="leading" id="Ccr-UP-hoD"/>
+                            <constraint firstItem="aNo-uM-E47" firstAttribute="top" secondItem="Kdz-TG-mlZ" secondAttribute="bottom" id="SCk-az-n1X"/>
+                            <constraint firstItem="GRC-nd-bhK" firstAttribute="top" secondItem="kQu-18-zPj" secondAttribute="bottom" id="UUU-8g-4z0"/>
+                            <constraint firstItem="aNo-uM-E47" firstAttribute="leading" secondItem="VWY-em-Ror" secondAttribute="leadingMargin" id="V7v-ct-ort"/>
+                            <constraint firstItem="kQu-18-zPj" firstAttribute="top" secondItem="VWY-em-Ror" secondAttribute="top" id="q2v-mx-tQl"/>
+                            <constraint firstAttribute="trailing" secondItem="kQu-18-zPj" secondAttribute="trailing" id="rsU-c9-cZt"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="kQu-18-zPj" id="gYd-5Z-QWI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fN7-nC-R6o" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="812" y="142.57871064467767"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="capture" width="60" height="60"/>
+    </resources>
+</document>

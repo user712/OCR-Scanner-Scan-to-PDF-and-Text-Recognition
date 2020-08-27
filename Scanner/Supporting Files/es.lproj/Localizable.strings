@@ -1,0 +1,234 @@
+/* 
+  Localizable.strings
+  Scanner
+
+   on 1/18/17.
+   
+*/
+
+///
+"Scanner" = "Escáner";
+
+
+///
+"E-mail" = "E-mail";
+"Photos" = "Fotos";
+
+///
+"OK" = "OK";
+"Cancel" = "Cancelar";
+"Done" = "Hecho";
+
+///
+"Missing HTTP Response" = "No hay respuesta HTTP";
+
+///
+"Have you heard about iScanner?" = "¿Ha oído hablar de %@ app?";
+"This is what they sound like." = "Aquí tiene el enlace para descargarlo de la App Store.";
+"Saved" = "Guardado";
+"Please Log in to iCloud" = "Por favor, acceda a iCloud";
+"Cannot find correct folder" = "No se puede encontrar la carpeta correcta";
+"Correct folder found" = "Encontrada la carpeta correcta";
+"Create folder successfully" = "Carpeta nueva creada";
+"Create folder failed" = "Fallo al crear la nueva carpeta";
+"Files are not in correct type" = "Formato de archivo incorrecto";
+
+///
+"New Document PDF Name" = "Nombre del nuevo PDF";
+"New" = "Nueva";
+"Folder" = "Carpeta";
+"New Folder" = "Nueva carpeta";
+"Create new folder" = "Crear nueva carpeta";
+"Type new folder name below." = "Escribir el nombre de la nueva carpeta.";
+"Create" = "Crear";
+"Document" = "Documento";
+
+
+///
+"Recognition" = "Reconocimiento";
+"Install" = "Instalar";
+"Download" = "Descargar";
+"OCR" = "OCR";
+"Show as text" = "Mostrar como texto";
+"Delete document" = "Borrar documento";
+"Text copied to clipboard" = "Texto copiado al portapapeles";
+"Choose Language" = "Elegir idioma";
+
+///
+"Email" = "Email";
+"Send as jpg" = "Enviar como jpg";
+"Open as..." = "Abrir como...";
+"Print" = "Imprimir";
+
+///
+"pages" = "páginas";
+"files" = "archivos";
+
+///
+"Are you sure?" = "¿Está seguro?";
+"Selected file(s) will be deleted permanently!" = "¡El archivo(s) seleccionado se borrará permanentemente!";
+"Yes, delete it!" = "Sí, ¡borrarlo!";
+"Deleted!" = "¡Borrado!";
+"Your file(s) has been deleted!" = "¡Su archivo(s) ha sido borrado!";
+"Nothing to delete" = "Nada que borrar";
+"files was moved" = "Los archivos se han movido";
+"Your image has been saved to Photo Library!" = "Imagen guardada";
+"Please press" = "Por favor, pulse";
+
+///
+"PDF Text" = "Texto PDF";
+"Text" = "Texto";
+
+///
+"Lock App" = "Bloquear aplicación";
+"Paper Size" = "Tamaño del papel";
+"Show Tutorial" = "Mostrar tutorial";
+"Support" = "Ayuda";
+"Rate App" = "Valorar la aplicación";
+"Share App" = "Compartir la aplicación";
+"App Settings" = "Configuración de la aplicación";
+"Others" = "Otros";
+
+///
+"Off" = "Desactivado";
+"On" = "Activado";
+
+
+///
+"Choice Filter Color" = "Elegir el color del filtro";
+"Color" = "Color";
+"Grayscale" = "Escala de grises";
+"Black and White" = "Blanco y negro";
+
+///
+"Choice Size" = "Elegir tamaño";
+"Letter" = "Carta";
+"Business Card" = "Tarjeta de visita";
+
+///
+"Enter passcode" = "Introducir contraseña";
+"Confirm the passcode" = "Confirmar contraseña";
+"Pincode Title3" = "Introducir antigua contraseña";
+"Pincode Title4" = "Introducir nueva contraseña";
+"Incorrect passcode" = "Contraseña incorrecta";
+
+"Settings" = "Configuración";
+
+///
+"Move" = "Mover";
+"Share" = "Compartir";
+"Merge" = "Combinar";
+"Delete" = "Borrar";
+
+"Languages" = "Idiomas";
+"Afrikaans" = "Afrikáans";
+"Albanian" = "Albano";
+"Arabic" = "Árabe";
+"Armenian" = "Armenio";
+"Basque" = "Euskera";
+"Bengali" = "Bengalí";
+"Bulgarian" = "Búlgaro";
+"Catalan" = "Catalán";
+"Cambodian" = "Camboyano";
+"Chinese (Mandarin)" = "Chino (Mandarín)";
+"Croatian" = "Croata";
+"Czech" = "Checo";
+"Danish" = "Danés";
+"Dutch" = "Holandés";
+"English" = "Inglés";
+"Estonian" = "Estonio";
+"Fiji" = "Fiyiano";
+"Finnish" = "Finés";
+"French" = "Francés";
+"Georgian" = "Georgiano";
+"German" = "Alemán";
+"Greek" = "Griego";
+"Gujarati" = "Guyaratí";
+"Hebrew" = "Hebreo";
+"Hindi" = "Hindi";
+"Hungarian" = "Húngaro";
+"Icelandic" = "Islandés";
+"Indonesian" = "Indonesio";
+"Irish" = "Irlandés";
+"Italian" = "Italiano";
+"Japanese" = "Japonés";
+"Javanese" = "Javanés";
+"Korean" = "Coreano";
+"Latin" = "Latín";
+"Latvian" = "Letón";
+"Lithuanian" = "Lituano";
+"Macedonian" = "Macedonio";
+"Malay" = "Malayo";
+"Malayalam" = "Malabar";
+"Maltese" = "Maltés";
+"Maori" = "Maorí";
+"Marathi" = "Maratí";
+"Mongolian" = "Mongol";
+"Nepali" = "Nepalí";
+"Norwegian" = "Noruego";
+"Persian" = "Persa";
+"Polish" = "Polaco";
+"Portuguese" = "Portugués";
+"Punjabi" = "Panyabí";
+"Quechua" = "Quechua";
+"Romanian" = "Rumano";
+"Russian" = "Ruso";
+"Samoan" = "Samoano";
+"Serbian" = "Serbio";
+"Slovak" = "Eslovaco";
+"Slovenian" = "Esloveno";
+"Spanish" = "Español";
+"Swahili" = "Suajili";
+"Swedish" = "Sueco";
+"Tamil" = "Tamil";
+"Tatar" = "Tártaro";
+"Telugu" = "Télugu";
+"Thai" = "Tailandés";
+"Tibetan" = "Tibetano";
+"Tonga" = "Tongano";
+"Turkish" = "Turco";
+"Ukrainian" = "Ucraniano";
+"Urdu" = "Urdu";
+"Uzbek" = "Uzbeko";
+"Vietnamese" = "Vietnamita";
+"Welsh" = "Galés";
+"Xhosa" = "Xhosa";
+
+
+/// Missing
+"Password" = "Contraseña";
+"App password" = "Contraseña de la aplicación";
+"With this option you can lock with passcode your app" = "Con esta opción puede bloquear su aplicación con una clave de acceso";
+"Select Print Size" = "Seleccionar tamaño de la impresión";
+"Create new document" = "Crear nuevo documento";
+"Type new document name below." = "Escriba el nombre del nuevo documento a continuación.";
+"The folder already exist, please use another name." = "La carpeta ya existe, por favor, utilice otro nombre.";
+
+
+"Uploading" = "Subiendo";
+"Share to..." = "Compartir en...";
+"Failed authorise Google user" = "Fallo al autorizar el usuario de Google";
+"Are you sure to logoff Google account?" = "¿Está seguro de que quiere salir de su cuenta de Google?";
+"Logged In" = "Conectado";
+"Logged Off" = "Desconectado";
+"Log Out" = "Salir";
+"Log In" = "Acceder";
+"Move to..." = "Mover a...";
+"Auto" = "Auto";
+"Find" = "Encontrar";
+"All" = "Todo";
+"Your picture has been deleted!" = "¡Su imagen ha sido borrada!";
+"Legal" = "Legal";
+"Folder name" = "Nombre de la carpeta";
+"Here is the link to download this app from the App Store." = "Aquí tiene el enlace para descargar esta aplicación desde la App Store.";
+"Save" = "Guardar";
+"Try again" = "Inténtelo de nuevo";
+"Edit" = "Editar";
+"Image" = "Imagen";
+"Chinese (Traditional)" = "Chino (tradicional)";
+"Select Paper Size" = "Seleccionar el tamaño del papel";
+"Downloaded" = "Descargado";
+"Failed authorise Google user" = "Fallo al autorizar el usuario de Google";
+"checkOutAppMessageKey" = "Echa un vistazo a esta increíble aplicación para tu dispositivo iOS.";
+"Area" = "Área";
+"Camera Access Denied! Go to iOS Settings and turn on Camera Access for this app." = "Cámara Acceso denegado! Vaya a Configuración de iOS y encienda la cámara de acceso para esta aplicación.";

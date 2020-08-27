@@ -1,0 +1,233 @@
+/* 
+  Localizable.strings
+  Scanner
+
+   on 1/18/17.
+   
+*/
+
+///
+"Scanner" = "스캐너";
+
+
+///
+"E-mail" = "이메일";
+"Photos" = "사진";
+
+///
+"OK" = "확인";
+"Cancel" = "취소";
+"Done" = "완료";
+
+///
+"Missing HTTP Response" = "HTTP 응답 누락";
+
+///
+"Have you heard about iScanner?" = "%@에 대해 들어봤어요?";
+"This is what they sound like." = "앱 스토어에서 받을 수 있는 링크입니다.";
+"Saved" = "저장됨";
+"Please Log in to iCloud" = "iCloud에 로그인하세요";
+"Cannot find correct folder" = "올바른 폴더를 찾을 수 없습니다";
+"Correct folder found" = "올바른 폴더를 발견했습니다";
+"Create folder successfully" = "새 폴더를 생성했습니다";
+"Create folder failed" = "새 폴더 생성을 실패했습니다";
+"Files are not in correct type" = "올바른 파일 형식이 아닙니다";
+
+///
+"New Document PDF Name" = "새 PDF 이름";
+"New" = "새로 만들기";
+"Folder" = "폴더";
+"New Folder" = "새 폴더";
+"Create new folder" = "새 폴더 만들기";
+"Type new folder name below." = "새 폴더 이름 입력하세요.";
+"Create" = "만들기";
+"Document" = "문서";
+
+
+///
+"Recognition" = "인식";
+"Install" = "설치";
+"Download" = "다운로드";
+"OCR" = "OCR";
+"Show as text" = "텍스트로 보이기";
+"Delete document" = "문서 삭제";
+"Text copied to clipboard" = "클립 보드에 텍스트가 복사되었습니다";
+"Choose Language" = "언어 선택";
+
+///
+"Email" = "이메일";
+"Send as jpg" = "jpg로 보내기";
+"Open as..." = "다음으로 열기...";
+"Print" = "프린트";
+
+///
+"pages" = "페이지";
+"files" = "파일";
+
+///
+"Are you sure?" = "확실합니까?";
+"Selected file(s) will be deleted permanently!" = "선택된 파일이 영구적으로 삭제됩니다!";
+"Yes, delete it!" = "네, 삭제합니다!";
+"Deleted!" = "삭제되었습니다!";
+"Your file(s) has been deleted!" = "파일이 삭제되었습니다!";
+"Nothing to delete" = "삭제할 것이 없습니다";
+"files was moved" = "파일이 이동되었습니다";
+"Your image has been saved to Photo Library!" = "이미지가 저장되었습니다!";
+"Please press" = "누르세요";
+
+///
+"PDF Text" = "PDF 텍스트";
+"Text" = "텍스트";
+"Area" = "영역";
+///
+"Lock App" = "앱 잠그기";
+"Paper Size" = "종이 크기";
+"Show Tutorial" = "사용법 보기";
+"Support" = "지원";
+"Rate App" = "앱 평가";
+"Share App" = "앱 공유";
+"App Settings" = "앱 설정";
+"Others" = "기타";
+
+///
+"Off" = "끄기";
+"On" = "켜기";
+
+///
+"Choice Filter Color" = "필터 색상 선택";
+"Color" = "색상";
+"Grayscale" = "그레이 스케일";
+"Black and White" = "흑백";
+
+///
+"Choice Size" = "크기 선택";
+"Letter" = "편지";
+"Business Card" = "명함";
+
+///
+"Enter passcode" = "비밀번호를 입력하세요";
+"Confirm the passcode" = "비밀번호 확인하세요";
+"Pincode Title3" = "오래된 비밀번호를 입력하세요";
+"Pincode Title4" = "새 비밀번호를 입력하세요";
+"Incorrect passcode" = "잘못된 비밀번호입니다";
+
+"Settings" = "설정";
+
+///
+"Move" = "이동";
+"Share" = "공유";
+"Merge" = "합치기";
+"Delete" = "삭제";
+
+"Languages" = "언어";
+"Afrikaans" = "아프리칸스어";
+"Albanian" = "알바니아어";
+"Arabic" = "아랍어";
+"Armenian" = "아르메니아어";
+"Basque" = "바스크어";
+"Bengali" = "벵골어";
+"Bulgarian" = "불가리아어";
+"Catalan" = "카탈로니아어";
+"Cambodian" = "캄보디아어";
+"Chinese (Mandarin)" = "중국어 (만다린)";
+"Croatian" = "크로아티아어";
+"Czech" = "체코어";
+"Danish" = "덴마크어";
+"Dutch" = "네덜란드어";
+"English" = "영어";
+"Estonian" = "에스토니아어";
+"Fiji" = "피지어";
+"Finnish" = "핀란드어";
+"French" = "프랑스어";
+"Georgian" = "조지아어";
+"German" = "독일어";
+"Greek" = "그리스어";
+"Gujarati" = "구자라트어";
+"Hebrew" = "히브리어";
+"Hindi" = "힌디어";
+"Hungarian" = "헝가리아어";
+"Icelandic" = "아이슬란드어";
+"Indonesian" = "인도네시아어";
+"Irish" = "아일랜드어";
+"Italian" = "이탈리아어";
+"Japanese" = "일본어";
+"Javanese" = "자바어";
+"Korean" = "한국어";
+"Latin" = "라틴어";
+"Latvian" = "라트비아어";
+"Lithuanian" = "리투아니아어";
+"Macedonian" = "마케도니아어";
+"Malay" = "말레이어";
+"Malayalam" = "말라얄람어";
+"Maltese" = "몰타어";
+"Maori" = "마오리어";
+"Marathi" = "마라티어";
+"Mongolian" = "몽골어";
+"Nepali" = "네팔어";
+"Norwegian" = "노르웨이어";
+"Persian" = "페르시아어";
+"Polish" = "폴란드어";
+"Portuguese" = "포르투칼어";
+"Punjabi" = "펀자브어";
+"Quechua" = "케추아어";
+"Romanian" = "루마니아어";
+"Russian" = "러시아어";
+"Samoan" = "사모아어";
+"Serbian" = "세르비아어";
+"Slovak" = "슬로바키아어";
+"Slovenian" = "슬로베니아어";
+"Spanish" = "스페인어";
+"Swahili" = "스와힐리어";
+"Swedish" = "스웨덴어";
+"Tamil" = "타밀어";
+"Tatar" = "타타르어";
+"Telugu" = "텔루구어";
+"Thai" = "태국어";
+"Tibetan" = "티베트어";
+"Tonga" = "통가어";
+"Turkish" = "터키어";
+"Ukrainian" = "우크라이나어";
+"Urdu" = "우르두어";
+"Uzbek" = "우즈베크어";
+"Vietnamese" = "베트남어";
+"Welsh" = "웨일스어";
+"Xhosa" = "코사어";
+
+
+
+/// Missing
+"Password" = "비밀번호";
+"App password" = "앱 비밀번호";
+"With this option you can lock with passcode your app" = "이 옵션으로 앱을 비밀번호로 잠글 수 있습니다";
+"Select Print Size" = "인쇄 크기 선택";
+"Create new document" = "새 문서 만들기";
+"Type new document name below." = "새 문서 이름을 아래에 입력하세요.";
+"The folder already exist, please use another name." = "폴더가 이미 존재합니다. 다른 이름을 사용하세요.";
+
+
+"Uploading" = "업로딩";
+"Share to..." = "공유...";
+"Failed authorise Google user" = "Google 사용자 승인을 실패했습니다";
+"Are you sure to logoff Google account?" = "구글 계정을 로그아웃 하시겠습니까?";
+"Logged In" = "로그인 됨";
+"Logged Off" = "로그아웃 됨";
+"Log Out" = "로그아웃";
+"Log In" = "로그인";
+"Move to..." = "이동...";
+"Auto" = "자동";
+"Find" = "찾기";
+"All" = "전체";
+"Your picture has been deleted!" = "사진이 삭제되었습니다!";
+"Legal" = "법률";
+"Folder name" = "폴더명";
+"Here is the link to download this app from the App Store." = "앱스토어에서 이 앱을 다운로드할 수 있는 링크입니다.";
+"Save" = "저장";
+"Try again" = "다시 시도";
+"Edit" = "편집하기";
+"Image" = "이미지";
+"Chinese (Traditional)" = "중국어 (번체)";
+"Select Paper Size" = "종이 크기 선택";
+"Downloaded" = "다운로드됨";
+"Failed authorise Google user" = "Google 사용자 승인을 실패했습니다";
+"checkOutAppMessageKey" = " iOS 디바이스를 위한 놀라운 앱을 확인하세요.";
+"Camera Access Denied! Go to iOS Settings and turn on Camera Access for this app." = "카메라 액세스가 거부되었습니다! iOS 설정으로 이동하여이 앱의 카메라 액세스를 사용 설정합니다.";

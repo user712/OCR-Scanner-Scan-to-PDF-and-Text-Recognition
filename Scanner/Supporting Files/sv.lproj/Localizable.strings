@@ -1,0 +1,233 @@
+/* 
+  Localizable.strings
+  Scanner
+
+   on 1/18/17.
+   
+*/
+///
+"Scanner" = "Scanner";
+
+
+///
+"E-mail" = "E-mail";
+"Photos" = "Foton";
+
+///
+"OK" = "OK";
+"Cancel" = "Avbryt";
+"Done" = "Klar";
+
+///
+"Missing HTTP Response" = "HTTP-respons saknas";
+
+///
+"Have you heard about iScanner?" = "Har du hört om %@ app?";
+"This is what they sound like." = " Här är en länk till att ladda ned från App Store.";
+"Saved" = "Sparad";
+"Please Log in to iCloud" = "Logga in på iCloud";
+"Cannot find correct folder" = "Hittar inte den korrekta mappen";
+"Correct folder found" = "Hittade rätt mapp";
+"Create folder successfully" = "Mappen skapades";
+"Create folder failed" = "Mappen kunde inte skapas";
+"Files are not in correct type" = "Filerna är inte av korrekt typ";
+
+///
+"New Document PDF Name" = "Nytt PDF-namn";
+"New" = "Ny";
+"Folder" = "Mapp";
+"New Folder" = "Ny mapp";
+"Create new folder" = "Skapa ny mapp";
+"Type new folder name below." = "Fyll i mappens namn.";
+"Create" = "Skapa";
+"Document" = "Dokument";
+
+
+///
+"Recognition" = "Igenkänning";
+"Install" = "Installera";
+"Download" = "Ladda ner";
+"OCR" = "OCR";
+"Show as text" = "Visa som text";
+"Delete document" = "Radera dokument";
+"Text copied to clipboard" = "Texten kopierades till urklipp";
+"Choose Language" = "Välj språk";
+
+///
+"Email" = "Email";
+"Send as jpg" = "Skicka som jpg";
+"Open as..." = "Öppna som...";
+"Print" = "Skriv ut";
+
+///
+"pages" = "sidor";
+"files" = "filer";
+
+///
+"Are you sure?" = "Är du säker?";
+"Selected file(s) will be deleted permanently!" = "Den valda filen/filerna kommer att raderas permanent!";
+"Yes, delete it!" = "Ja, radera den!";
+"Deleted!" = "Raderad!";
+"Your file(s) has been deleted!" = "Dina filer har raderats!";
+"Nothing to delete" = "Inget att radera";
+"files was moved" = "Filer flyttades";
+"Your image has been saved to Photo Library!" = "Din bild har sparats!";
+"Please press" = "Tryck";
+
+///
+"PDF Text" = "PDF-text";
+"Text" = "Text";
+
+///
+"Lock App" = "Lås App";
+"Paper Size" = "Papersstorlek";
+"Show Tutorial" = "Visa genomgång";
+"Support" = "Support";
+"Rate App" = "Betygsätt App";
+"Share App" = "Dela app";
+"App Settings" = "App-inställnignar";
+"Others" = "Annat";
+
+///
+"Off" = "Av";
+"On" = "På";
+
+///
+"Choice Filter Color" = "Välj filterfärg";
+"Color" = "Färg";
+"Grayscale" = "Gråskala";
+"Black and White" = "Svartvitt";
+
+///
+"Choice Size" = "Välj storlek";
+"Letter" = "Brev";
+"Business Card" = "Business Card";
+
+///
+
+
+"Enter passcode" = "Fyll i lösenkod";
+"Confirm the passcode" = "Bekräfta lösenkod";
+"Pincode Title3" = "Ange äldre lösenkod";
+"Pincode Title4" = "Ange nuvarande lösenkod";
+"Incorrect passcode" = "Fel lösenkod";
+
+"Settings" = "Inställningar";
+
+///
+"Move" = "Flytta";
+"Share" = "Dela";
+"Merge" = "Sammanför";
+"Delete" = "Radera";
+
+"Languages" = "Språk";
+"Afrikaans" = "Afrikaans";
+"Albanian" = "Albanska";
+"Arabic" = "Arabiska";
+"Armenian" = "Armeniska";
+"Basque" = "Baskiska";
+"Bengali" = "Bengaliska";
+"Bulgarian" = "Bulgariska";
+"Catalan" = "Catalanska";
+"Cambodian" = "Cambodianska";
+"Chinese (Mandarin)" = "Kinesiska (Mandarin)";
+"Croatian" = "Kroatiska";
+"Czech" = "Tjeckiska";
+"Danish" = "Danska";
+"Dutch" = "Holländska";
+"English" = "Engelska";
+"Estonian" = "Estländska";
+"Fiji" = "Fiji";
+"Finnish" = "Finska";
+"French" = "Franska";
+"Georgian" = "Georgiska";
+"German" = "Tyska";
+"Greek" = "Grekiska";
+"Gujarati" = "Gujarati";
+"Hebrew" = "Hebreiska";
+"Hindi" = "Hindi";
+"Hungarian" = "Ungerska";
+"Icelandic" = "Isländska";
+"Indonesian" = "Indonesiska";
+"Irish" = "Irländska";
+"Italian" = "Italienska";
+"Japanese" = "Japanska";
+"Javanese" = "Java";
+"Korean" = "Koreanska";
+"Latin" = "Latin";
+"Latvian" = "Lättiska";
+"Lithuanian" = "Litauiska";
+"Macedonian" = "Makedonska";
+"Malay" = "Malay";
+"Malayalam" = "Malayalam";
+"Maltese" = "Maltesiska";
+"Maori" = "Maori";
+"Marathi" = "Marathi";
+"Mongolian" = "Mongoliska";
+"Nepali" = "Nepalelsiska";
+"Norwegian" = "Norska";
+"Persian" = "Persiska";
+"Polish" = "Polska";
+"Portuguese" = "Portugisiska";
+"Punjabi" = "Punjabi";
+"Quechua" = "Quechua";
+"Romanian" = "Romanian";
+"Russian" = "Russian";
+"Samoan" = "Samoan";
+"Serbian" = "Serbiska";
+"Slovak" = "Slovakiska";
+"Slovenian" = "Slovenska";
+"Spanish" = "Spanska";
+"Swahili" = "Swahili";
+"Swedish" = "Svenska";
+"Tamil" = "Tamil";
+"Tatar" = "Tatar";
+"Telugu" = "Telugu";
+"Thai" = "Thai";
+"Tibetan" = "Tibetianska";
+"Tonga" = "Tonga";
+"Turkish" = "Turkiska";
+"Ukrainian" = "Ukrainska";
+"Urdu" = "Urdu";
+"Uzbek" = "Uzbekiska";
+"Vietnamese" = "Vietnamesiska";
+"Welsh" = "Walesiska";
+"Xhosa" = "Xhosa";
+
+/// Missing
+"Password" = "Lösenord";
+"App password" = "Lösenord för appen";
+"With this option you can lock with passcode your app" = "Med det här alternativet kan du låsa din app med lösenord";
+"Select Print Size" = "Välj printstorlek";
+"Create new document" = "Skapa nytt dokument";
+"Type new document name below." = "Fyll i nytt dokumentnamn nedan.";
+"The folder already exist, please use another name." = "Detta mappalternativ existerar redan, använd ett annat nman.";
+
+
+"Uploading" = "Laddar upp";
+"Share to..." = "Dela till...";
+"Failed authorise Google user" = "Kunda inte verifiera Google-användaren";
+"Are you sure to logoff Google account?" = "Är du säker på att du vill logga ut från ditt Google-konto?";
+"Logged In" = "Inloggad";
+"Logged Off" = "Utloggad";
+"Log Out" = "Logga ut";
+"Log In" = "Logga in";
+"Move to..." = "Flytta till...";
+"Auto" = "Auto";
+"Find" = "Hitta";
+"All" = "Alla";
+"Your picture has been deleted!" = "Din bild har raderats!";
+"Legal" = "Juridiskst";
+"Folder name" = "Mappnamn";
+"Here is the link to download this app from the App Store." = "Här är nedladdningslänken för denna app från App Store.";
+"Save" = "Spara";
+"Try again" = "Försök igen";
+"Edit" = "Ändra";
+"Image" = "Bild";
+"Chinese (Traditional)" = "Kinesiska (Traditionell)";
+"Select Paper Size" = "Välj Papperstorlek";
+"Downloaded" = "Neddladdad";
+"Failed authorise Google user" = "Kunda inte verifiera Google-användaren";
+"checkOutAppMessageKey" = "Kolla in denna fantastiska applikation för din iOS-enhet.";
+"Area" = "Område";
+"Camera Access Denied! Go to iOS Settings and turn on Camera Access for this app." = "Kameraåtkomst nekad! Gå till iOS-inställningar och aktivera kameratillgång för den här appen.";

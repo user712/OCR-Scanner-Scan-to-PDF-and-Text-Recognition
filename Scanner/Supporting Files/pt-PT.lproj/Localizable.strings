@@ -1,0 +1,223 @@
+/* 
+  Localizable.strings
+  Scanner
+
+   on 1/18/17.
+   
+*/
+
+///
+"Scanner" = "Scanner";
+
+
+///
+"E-mail" = "E-mail";
+"Photos" = "Fotos";
+
+///
+"OK" = "OK";
+"Cancel" = "Cancelar";
+"Done" = "Concluído";
+
+///
+"Missing HTTP Response" = "Resposta HTTP em Falta";
+
+///
+"Have you heard about iScanner?" = "Já ouviu falar na %@ app?";
+"This is what they sound like." = "Pode conhecê-la aqui.";
+"Saved" = "Gravado";
+"Please Log in to iCloud" = "Por favor aceda à iCloud";
+"Cannot find correct folder" = "Não é possível encontrar a pasta correta";
+"Correct folder found" = "Pasta correta encontrada";
+"Create folder successfully" = "Pasta criada com sucesso";
+"Create folder failed" = "Falha na criação de nova pasta";
+"Files are not in correct type" = "Formato de ficheiro incorreto";
+
+///
+"New Document PDF Name" = "Nome do Novo PDF";
+"New" = "Novo";
+"Folder" = "Pasta";
+"New Folder" = "Nova Pasta";
+"Create new folder" = "Criar nova pasta";
+"Type new folder name below." = "Insira o nome da nova pasta.";
+"Create" = "Criar";
+"Document" = "Documento";
+
+
+///
+"Recognition" = "Reconhecimento";
+"Install" = "Instalar";
+"Download" = "Transferir";
+"OCR" = "OCR";
+"Show as text" = "Mostrar como texto";
+"Delete document" = "Eliminar documento";
+"Text copied to clipboard" = "Texto copiado para a área de transferência";
+"Choose Language" = "Escolher Idioma";
+
+///
+"Email" = "Email";
+"Send as jpg" = "Enviar como jpg";
+"Open as..." = "Abrir como...";
+"Print" = "Imprimir";
+
+///
+"pages" = "páginas";
+"files" = "ficheiros";
+
+///
+"Are you sure?" = "Tem a certeza?";
+"Selected file(s) will be deleted permanently!" = "O(s) ficheiro(s) selecionado(s) será(ão) eliminado(s) permanentemente!";
+"Yes, delete it!" = "Sim, eliminar!";
+"Deleted!" = "Eliminado!";
+"Your file(s) has been deleted!" = "O(s) seu(s) ficheiro(s) foi eliminado!";
+"Nothing to delete" = "Nada para eliminar";
+"files was moved" = "Os ficheiros foram movidos";
+"Your image has been saved to Photo Library!" = "Imagem guardada";
+"Please press" = "Por favor prima";
+
+///
+"PDF Text" = "Texto PDF";
+"Text" = "Texto";
+
+///
+"Lock App" = "Bloquear Aplicação";
+"Paper Size" = "Tamanho do Papel";
+"Show Tutorial" = "Mostrar Tutorial";
+"Support" = "Suporte";
+"Rate App" = "Classificar Aplicação";
+"Share App" = "Partilhar Aplicação";
+"App Settings" = "Definições da Aplicação";
+"Others" = "Outros";
+
+///
+"Off" = "Desligado";
+"On" = "Ligado";
+
+///
+"Choice Filter Color" = "Escolher Cor de Filtro";
+"Color" = "Cor";
+"Grayscale" = "Escala de Cinzas";
+"Black and White" = "Preto e Branco";
+
+///
+"Choice Size" = "Escolher tamanho";
+"Letter" = "Carta";
+"Business Card" = "Cartão de Visita";
+
+///
+"Enter passcode" = "Insira o Código de Acesso";
+"Confirm the passcode" = "Confirmar Código de Acesso";
+"Pincode Title3" = "Insira o Código de Acesso Antigo";
+"Pincode Title4" = "Insira o Novo Código de Acesso";
+"Incorrect passcode" = "Código de Acesso Errado";
+
+"Settings" = "Definições";
+
+///
+"Move" = "Mover";
+"Share" = "Partilhar";
+"Merge" = "Unir";
+"Delete" = "Eliminar";
+
+"Languages" = "Idiomas";
+"Afrikaans" = "Africâner";
+"Albanian" = "Albanês";
+"Arabic" = "Árabe";
+"Armenian" = "Arménio";
+"Basque" = "Basco";
+"Bengali" = "Bengali";
+"Bulgarian" = "Bulgaro";
+"Catalan" = "Catalão";
+"Cambodian" = "Cambojano";
+"Chinese (Mandarin)" = "Chinês (Mandarim)";
+"Croatian" = "Croata";
+"Czech" = "Checo";
+"Danish" = "Dinamarquês";
+"Dutch" = "Holandês";
+"English" = "Inglês";
+"Estonian" = "Estónio";
+"Fiji" = "Fiji";
+"Finnish" = "Finlandês";
+"French" = "Francês";
+"Georgian" = "Georgiano";
+"German" = "Alemão";
+"Greek" = "Grego";
+"Gujarati" = "Gujarati";
+"Hebrew" = "Hebreu";
+"Hindi" = "Hindi";
+"Hungarian" = "Húngaro";
+"Icelandic" = "Islandês";
+"Indonesian" = "Indonésio";
+"Irish" = "Irlandês";
+"Italian" = "Italiano";
+"Japanese" = "Japonês";
+"Javanese" = "Javanês";
+"Korean" = "Coreano";
+"Latin" = "Latim";
+"Latvian" = "Letão";
+"Lithuanian" = "Lituano";
+"Macedonian" = "Macedónio";
+"Malay" = "Malaio";
+"Malayalam" = "Malaiala";
+"Maltese" = "Maltês";
+"Maori" = "Maori";
+"Marathi" = "Marati";
+"Mongolian" = "Mongol";
+"Nepali" = "Nepalês";
+"Norwegian" = "Norueguês";
+"Persian" = "Persa";
+"Polish" = "Polaco";
+"Portuguese" = "Português";
+"Punjabi" = "Punjabi";
+"Quechua" = "Quíchua";
+"Romanian" = "Romeno";
+"Russian" = "Russo";
+"Samoan" = "Samoano";
+"Serbian" = "Sérvio";
+"Slovak" = "Eslovaco";
+"Slovenian" = "Esloveno";
+"Spanish" = "Espanhol";
+"Swahili" = "Swahili";
+"Swedish" = "Sueco";
+"Tamil" = "Tamil";
+"Tatar" = "Tatar";
+"Telugu" = "Telugu";
+"Thai" = "Tailandês";
+"Tibetan" = "Tibetano";
+"Tonga" = "Tonga";
+"Turkish" = "Turco";
+"Ukrainian" = "Ucraniano";
+"Urdu" = "Urdu";
+"Uzbek" = "Uzbeque";
+"Vietnamese" = "Vietnamita";
+"Welsh" = "Galês";
+"Xhosa" = "Xhosa";
+
+
+/// Missing
+"Password" = "Palavra-passe";
+"App password" = "Palavra-passe da aplicação";
+"With this option you can lock with passcode your app" = "Com esta opção pode bloquear a sua aplicação com um código de acesso";
+"Select Print Size" = "Selecionar Tamanho de Impressão";
+"Create new document" = "Criar novo documento";
+"Type new document name below." = "Insira abaixo o nome do novo documento.";
+"The folder already exist, please use another name." = "A pasta já existe, por favor use outro nome.";
+
+
+"Uploading" = "A carregar";
+"Share to..." = "Partilhar para...";
+"Legal" = "Legal";
+"Edit" = "Editar";
+"Move to..." = "Mover para...";
+"Image" = "Imagem";
+"Chinese (Traditional)" = "Chinês (Tradicional)";
+"Select Paper Size" = "Selecionar Tamanho do Papel";
+"Downloaded" = "Transferido";
+"Save" = "Gravar";
+"Are you sure to logoff Google account?" = "Tem a certeza que quer terminar a sessão da conta Google?";
+"Log Out" = "Terminar Sessão";
+"Log In" = "Iniciar Sessão";
+"Failed authorise Google user" = "Falha na autorização de utilizador Google";
+"checkOutAppMessageKey" = "Conheça este fantástico aplicativo para o seu dispositivo iOS.";
+"Area" = "Área";
+"Camera Access Denied! Go to iOS Settings and turn on Camera Access for this app." = "Acesso à câmera negado! Vá para Configurações de iOS e ative o Acesso à Câmera para este aplicativo.";

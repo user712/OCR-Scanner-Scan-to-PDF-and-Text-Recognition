@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="7VV-iM-3y3">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CameraTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="09Y-BA-agd" customClass="RenderView" customModule="GPUImage">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="09Y-BA-agd" secondAttribute="trailing" id="P8R-sj-dx9"/>
+                            <constraint firstItem="09Y-BA-agd" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="TYe-Hq-MVQ"/>
+                            <constraint firstItem="09Y-BA-agd" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Xeo-X8-bgC"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="09Y-BA-agd" secondAttribute="bottom" id="vUU-Ua-bEX"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="filterView" destination="09Y-BA-agd" id="tm9-4h-hal"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
+        </scene>
+        <!--Camera View Controller-->
+        <scene sceneID="y8S-Tx-7fA">
+            <objects>
+                <viewController id="7VV-iM-3y3" customClass="CameraViewController" customModule="CameraTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="yLm-kq-TFR"/>
+                        <viewControllerLayoutGuide type="bottom" id="TtB-Mq-Ivw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="QhH-RE-B7d">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zI6-or-Pvn" customClass="RenderView" customModule="GPUImage">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="zI6-or-Pvn" firstAttribute="leading" secondItem="QhH-RE-B7d" secondAttribute="leading" id="JXY-Mr-1OX"/>
+                            <constraint firstAttribute="trailing" secondItem="zI6-or-Pvn" secondAttribute="trailing" id="Ohi-D7-U8d"/>
+                            <constraint firstItem="TtB-Mq-Ivw" firstAttribute="top" secondItem="zI6-or-Pvn" secondAttribute="bottom" id="mIE-8k-5ax"/>
+                            <constraint firstItem="zI6-or-Pvn" firstAttribute="top" secondItem="QhH-RE-B7d" secondAttribute="top" id="p3l-ei-Qsb"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="filterView" destination="zI6-or-Pvn" id="Pyj-gP-rrj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bQX-Ut-pX6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="984.79999999999995" y="401.64917541229386"/>
+        </scene>
+    </scenes>
+</document>

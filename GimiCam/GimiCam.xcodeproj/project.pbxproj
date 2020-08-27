@@ -1,0 +1,759 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B13BEC71E6AC5B900CA4ECF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B13BEC51E6AC5B900CA4ECF /* Main.storyboard */; };
+		8B13BEC91E6AC5B900CA4ECF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B13BEC81E6AC5B900CA4ECF /* Assets.xcassets */; };
+		8B13BECC1E6AC5B900CA4ECF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B13BECA1E6AC5B900CA4ECF /* LaunchScreen.storyboard */; };
+		8B13BED71E6AC5B900CA4ECF /* GimiCamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B13BED61E6AC5B900CA4ECF /* GimiCamTests.swift */; };
+		8B13BEE21E6AC5B900CA4ECF /* GimiCamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B13BEE11E6AC5B900CA4ECF /* GimiCamUITests.swift */; };
+		8B13BEF21E6AC5DD00CA4ECF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B13BEF01E6AC5DD00CA4ECF /* AppDelegate.swift */; };
+		8B13BEFB1E6AC6C300CA4ECF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B13BEFA1E6AC6C300CA4ECF /* MainViewController.swift */; };
+		8B13BEFD1E6AC6EA00CA4ECF /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B13BEFC1E6AC6EA00CA4ECF /* CameraViewController.swift */; };
+		8B13BEFF1E6AC72B00CA4ECF /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B13BEFE1E6AC72B00CA4ECF /* Camera.swift */; };
+		8B3C45591E6D6EE200EC843A /* AVFoundation Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3C45581E6D6EE200EC843A /* AVFoundation Extensions.swift */; };
+		8B3C455D1E6D8A7300EC843A /* RectangleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3C455C1E6D8A7300EC843A /* RectangleManager.m */; };
+		8B4C0E901E6AD05F00F98874 /* UIKit Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4C0E8F1E6AD05F00F98874 /* UIKit Extensions.swift */; };
+		8B4C0E931E6AD68C00F98874 /* RectangleDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4C0E921E6AD68C00F98874 /* RectangleDetector.swift */; };
+		8BD6FE161E6DF53A005DAFFF /* PreviewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD6FE151E6DF53A005DAFFF /* PreviewItem.swift */; };
+		8BD6FE181E6DF557005DAFFF /* PreviewDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD6FE171E6DF557005DAFFF /* PreviewDatasource.swift */; };
+		8BD6FE1A1E6DF588005DAFFF /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD6FE191E6DF588005DAFFF /* PreviewViewController.swift */; };
+		8BD6FE2A1E6DFCF3005DAFFF /* GPUImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BD6FE271E6DFCC2005DAFFF /* GPUImage.framework */; };
+		8BD6FE2B1E6DFCF3005DAFFF /* GPUImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8BD6FE271E6DFCC2005DAFFF /* GPUImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8BD6FE301E6DFD08005DAFFF /* GPUImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD6FE2F1E6DFD08005DAFFF /* GPUImageViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B13BED31E6AC5B900CA4ECF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B13BEB61E6AC5B900CA4ECF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B13BEBD1E6AC5B900CA4ECF;
+			remoteInfo = GimiCam;
+		};
+		8B13BEDE1E6AC5B900CA4ECF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B13BEB61E6AC5B900CA4ECF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B13BEBD1E6AC5B900CA4ECF;
+			remoteInfo = GimiCam;
+		};
+		8BD6FE221E6DFCC2005DAFFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BD6FE1B1E6DFCC2005DAFFF /* GPUImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BC6E7CAB1C39A9D8006DF678;
+			remoteInfo = GPUImage_macOS;
+		};
+		8BD6FE241E6DFCC2005DAFFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BD6FE1B1E6DFCC2005DAFFF /* GPUImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BC6E7CB51C39A9D8006DF678;
+			remoteInfo = GPUImageTests_macOS;
+		};
+		8BD6FE261E6DFCC2005DAFFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BD6FE1B1E6DFCC2005DAFFF /* GPUImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BC9E34E91E524A2200B8604F;
+			remoteInfo = GPUImage_iOS;
+		};
+		8BD6FE281E6DFCC2005DAFFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BD6FE1B1E6DFCC2005DAFFF /* GPUImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BC9E34F11E524A2200B8604F;
+			remoteInfo = GPUImageTests_iOS;
+		};
+		8BD6FE2C1E6DFCF3005DAFFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BD6FE1B1E6DFCC2005DAFFF /* GPUImage.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BC9E34E81E524A2200B8604F;
+			remoteInfo = GPUImage_iOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8BD6FE2E1E6DFCF3005DAFFF /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8BD6FE2B1E6DFCF3005DAFFF /* GPUImage.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8B13BEBE1E6AC5B900CA4ECF /* GimiCam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GimiCam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B13BEC61E6AC5B900CA4ECF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B13BEC81E6AC5B900CA4ECF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B13BECB1E6AC5B900CA4ECF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8B13BED21E6AC5B900CA4ECF /* GimiCamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GimiCamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B13BED61E6AC5B900CA4ECF /* GimiCamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GimiCamTests.swift; sourceTree = "<group>"; };
+		8B13BED81E6AC5B900CA4ECF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B13BEDD1E6AC5B900CA4ECF /* GimiCamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GimiCamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B13BEE11E6AC5B900CA4ECF /* GimiCamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GimiCamUITests.swift; sourceTree = "<group>"; };
+		8B13BEE31E6AC5B900CA4ECF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B13BEF01E6AC5DD00CA4ECF /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "Supporting Files/AppDelegate.swift"; sourceTree = "<group>"; };
+		8B13BEF11E6AC5DD00CA4ECF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Supporting Files/Info.plist"; sourceTree = "<group>"; };
+		8B13BEFA1E6AC6C300CA4ECF /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = ViewController/MainViewController.swift; sourceTree = "<group>"; };
+		8B13BEFC1E6AC6EA00CA4ECF /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CameraViewController.swift; path = ViewController/CameraViewController.swift; sourceTree = "<group>"; };
+		8B13BEFE1E6AC72B00CA4ECF /* Camera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Camera.swift; path = Model/Camera.swift; sourceTree = "<group>"; };
+		8B3C45581E6D6EE200EC843A /* AVFoundation Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "AVFoundation Extensions.swift"; path = "Utils/AVFoundation Extensions.swift"; sourceTree = "<group>"; };
+		8B3C455A1E6D8A7200EC843A /* GimiCam-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GimiCam-Bridging-Header.h"; sourceTree = "<group>"; };
+		8B3C455B1E6D8A7300EC843A /* RectangleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RectangleManager.h; path = Helper/RectangleManager.h; sourceTree = "<group>"; };
+		8B3C455C1E6D8A7300EC843A /* RectangleManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RectangleManager.m; path = Helper/RectangleManager.m; sourceTree = "<group>"; };
+		8B4C0E8F1E6AD05F00F98874 /* UIKit Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIKit Extensions.swift"; path = "Utils/UIKit Extensions.swift"; sourceTree = "<group>"; };
+		8B4C0E921E6AD68C00F98874 /* RectangleDetector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RectangleDetector.swift; path = Model/RectangleDetector.swift; sourceTree = "<group>"; };
+		8BD6FE151E6DF53A005DAFFF /* PreviewItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PreviewItem.swift; path = Model/PreviewItem.swift; sourceTree = "<group>"; };
+		8BD6FE171E6DF557005DAFFF /* PreviewDatasource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PreviewDatasource.swift; path = Helper/PreviewDatasource.swift; sourceTree = "<group>"; };
+		8BD6FE191E6DF588005DAFFF /* PreviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PreviewViewController.swift; path = ViewController/PreviewViewController.swift; sourceTree = "<group>"; };
+		8BD6FE1B1E6DFCC2005DAFFF /* GPUImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GPUImage.xcodeproj; path = framework/GPUImage.xcodeproj; sourceTree = "<group>"; };
+		8BD6FE2F1E6DFD08005DAFFF /* GPUImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GPUImageViewController.swift; path = ViewController/GPUImageViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B13BEBB1E6AC5B900CA4ECF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BD6FE2A1E6DFCF3005DAFFF /* GPUImage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B13BECF1E6AC5B900CA4ECF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B13BEDA1E6AC5B900CA4ECF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B13BEB51E6AC5B900CA4ECF = {
+			isa = PBXGroup;
+			children = (
+				8B13BEC01E6AC5B900CA4ECF /* GimiCam */,
+				8B13BED51E6AC5B900CA4ECF /* GimiCamTests */,
+				8B13BEE01E6AC5B900CA4ECF /* GimiCamUITests */,
+				8B13BEBF1E6AC5B900CA4ECF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B13BEBF1E6AC5B900CA4ECF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B13BEBE1E6AC5B900CA4ECF /* GimiCam.app */,
+				8B13BED21E6AC5B900CA4ECF /* GimiCamTests.xctest */,
+				8B13BEDD1E6AC5B900CA4ECF /* GimiCamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B13BEC01E6AC5B900CA4ECF /* GimiCam */ = {
+			isa = PBXGroup;
+			children = (
+				8BD6FE1B1E6DFCC2005DAFFF /* GPUImage.xcodeproj */,
+				8B13BEF91E6AC6AB00CA4ECF /* Util */,
+				8B13BEF81E6AC6A400CA4ECF /* Helper */,
+				8B13BEF71E6AC69E00CA4ECF /* Network */,
+				8B13BEF61E6AC69900CA4ECF /* Model */,
+				8B13BEF51E6AC69400CA4ECF /* View */,
+				8B13BEF41E6AC68E00CA4ECF /* ViewController */,
+				8B13BEEF1E6AC5CD00CA4ECF /* Supporting Files */,
+			);
+			path = GimiCam;
+			sourceTree = "<group>";
+		};
+		8B13BED51E6AC5B900CA4ECF /* GimiCamTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B13BED61E6AC5B900CA4ECF /* GimiCamTests.swift */,
+				8B13BED81E6AC5B900CA4ECF /* Info.plist */,
+			);
+			path = GimiCamTests;
+			sourceTree = "<group>";
+		};
+		8B13BEE01E6AC5B900CA4ECF /* GimiCamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8B13BEE11E6AC5B900CA4ECF /* GimiCamUITests.swift */,
+				8B13BEE31E6AC5B900CA4ECF /* Info.plist */,
+			);
+			path = GimiCamUITests;
+			sourceTree = "<group>";
+		};
+		8B13BEEF1E6AC5CD00CA4ECF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B13BEF01E6AC5DD00CA4ECF /* AppDelegate.swift */,
+				8B13BEC51E6AC5B900CA4ECF /* Main.storyboard */,
+				8B13BEC81E6AC5B900CA4ECF /* Assets.xcassets */,
+				8B13BECA1E6AC5B900CA4ECF /* LaunchScreen.storyboard */,
+				8B3C455A1E6D8A7200EC843A /* GimiCam-Bridging-Header.h */,
+				8B13BEF11E6AC5DD00CA4ECF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8B13BEF41E6AC68E00CA4ECF /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8B13BEFA1E6AC6C300CA4ECF /* MainViewController.swift */,
+				8B13BEFC1E6AC6EA00CA4ECF /* CameraViewController.swift */,
+				8BD6FE191E6DF588005DAFFF /* PreviewViewController.swift */,
+				8BD6FE2F1E6DFD08005DAFFF /* GPUImageViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		8B13BEF51E6AC69400CA4ECF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		8B13BEF61E6AC69900CA4ECF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8B13BEFE1E6AC72B00CA4ECF /* Camera.swift */,
+				8BD6FE151E6DF53A005DAFFF /* PreviewItem.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		8B13BEF71E6AC69E00CA4ECF /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		8B13BEF81E6AC6A400CA4ECF /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				8B4C0E921E6AD68C00F98874 /* RectangleDetector.swift */,
+				8BD6FE171E6DF557005DAFFF /* PreviewDatasource.swift */,
+				8B3C455B1E6D8A7300EC843A /* RectangleManager.h */,
+				8B3C455C1E6D8A7300EC843A /* RectangleManager.m */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		8B13BEF91E6AC6AB00CA4ECF /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				8B4C0E8F1E6AD05F00F98874 /* UIKit Extensions.swift */,
+				8B3C45581E6D6EE200EC843A /* AVFoundation Extensions.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		8BD6FE1C1E6DFCC2005DAFFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BD6FE231E6DFCC2005DAFFF /* GPUImage.framework */,
+				8BD6FE251E6DFCC2005DAFFF /* GPUImageTests_macOS.xctest */,
+				8BD6FE271E6DFCC2005DAFFF /* GPUImage.framework */,
+				8BD6FE291E6DFCC2005DAFFF /* GPUImageTests_iOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B13BEBD1E6AC5B900CA4ECF /* GimiCam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B13BEE61E6AC5B900CA4ECF /* Build configuration list for PBXNativeTarget "GimiCam" */;
+			buildPhases = (
+				8B13BEBA1E6AC5B900CA4ECF /* Sources */,
+				8B13BEBB1E6AC5B900CA4ECF /* Frameworks */,
+				8B13BEBC1E6AC5B900CA4ECF /* Resources */,
+				8BD6FE2E1E6DFCF3005DAFFF /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BD6FE2D1E6DFCF3005DAFFF /* PBXTargetDependency */,
+			);
+			name = GimiCam;
+			productName = GimiCam;
+			productReference = 8B13BEBE1E6AC5B900CA4ECF /* GimiCam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B13BED11E6AC5B900CA4ECF /* GimiCamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B13BEE91E6AC5B900CA4ECF /* Build configuration list for PBXNativeTarget "GimiCamTests" */;
+			buildPhases = (
+				8B13BECE1E6AC5B900CA4ECF /* Sources */,
+				8B13BECF1E6AC5B900CA4ECF /* Frameworks */,
+				8B13BED01E6AC5B900CA4ECF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B13BED41E6AC5B900CA4ECF /* PBXTargetDependency */,
+			);
+			name = GimiCamTests;
+			productName = GimiCamTests;
+			productReference = 8B13BED21E6AC5B900CA4ECF /* GimiCamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8B13BEDC1E6AC5B900CA4ECF /* GimiCamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B13BEEC1E6AC5B900CA4ECF /* Build configuration list for PBXNativeTarget "GimiCamUITests" */;
+			buildPhases = (
+				8B13BED91E6AC5B900CA4ECF /* Sources */,
+				8B13BEDA1E6AC5B900CA4ECF /* Frameworks */,
+				8B13BEDB1E6AC5B900CA4ECF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B13BEDF1E6AC5B900CA4ECF /* PBXTargetDependency */,
+			);
+			name = GimiCamUITests;
+			productName = GimiCamUITests;
+			productReference = 8B13BEDD1E6AC5B900CA4ECF /* GimiCamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B13BEB61E6AC5B900CA4ECF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = A;
+				TargetAttributes = {
+					8B13BEBD1E6AC5B900CA4ECF = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = XY9H4LH9U8;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+					8B13BED11E6AC5B900CA4ECF = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = XY9H4LH9U8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8B13BEBD1E6AC5B900CA4ECF;
+					};
+					8B13BEDC1E6AC5B900CA4ECF = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = XY9H4LH9U8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8B13BEBD1E6AC5B900CA4ECF;
+					};
+				};
+			};
+			buildConfigurationList = 8B13BEB91E6AC5B900CA4ECF /* Build configuration list for PBXProject "GimiCam" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B13BEB51E6AC5B900CA4ECF;
+			productRefGroup = 8B13BEBF1E6AC5B900CA4ECF /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 8BD6FE1C1E6DFCC2005DAFFF /* Products */;
+					ProjectRef = 8BD6FE1B1E6DFCC2005DAFFF /* GPUImage.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				8B13BEBD1E6AC5B900CA4ECF /* GimiCam */,
+				8B13BED11E6AC5B900CA4ECF /* GimiCamTests */,
+				8B13BEDC1E6AC5B900CA4ECF /* GimiCamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		8BD6FE231E6DFCC2005DAFFF /* GPUImage.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GPUImage.framework;
+			remoteRef = 8BD6FE221E6DFCC2005DAFFF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8BD6FE251E6DFCC2005DAFFF /* GPUImageTests_macOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = GPUImageTests_macOS.xctest;
+			remoteRef = 8BD6FE241E6DFCC2005DAFFF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8BD6FE271E6DFCC2005DAFFF /* GPUImage.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GPUImage.framework;
+			remoteRef = 8BD6FE261E6DFCC2005DAFFF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8BD6FE291E6DFCC2005DAFFF /* GPUImageTests_iOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = GPUImageTests_iOS.xctest;
+			remoteRef = 8BD6FE281E6DFCC2005DAFFF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B13BEBC1E6AC5B900CA4ECF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B13BECC1E6AC5B900CA4ECF /* LaunchScreen.storyboard in Resources */,
+				8B13BEC91E6AC5B900CA4ECF /* Assets.xcassets in Resources */,
+				8B13BEC71E6AC5B900CA4ECF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B13BED01E6AC5B900CA4ECF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B13BEDB1E6AC5B900CA4ECF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B13BEBA1E6AC5B900CA4ECF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B4C0E901E6AD05F00F98874 /* UIKit Extensions.swift in Sources */,
+				8B13BEFF1E6AC72B00CA4ECF /* Camera.swift in Sources */,
+				8B13BEF21E6AC5DD00CA4ECF /* AppDelegate.swift in Sources */,
+				8B4C0E931E6AD68C00F98874 /* RectangleDetector.swift in Sources */,
+				8BD6FE1A1E6DF588005DAFFF /* PreviewViewController.swift in Sources */,
+				8B13BEFB1E6AC6C300CA4ECF /* MainViewController.swift in Sources */,
+				8B3C455D1E6D8A7300EC843A /* RectangleManager.m in Sources */,
+				8BD6FE161E6DF53A005DAFFF /* PreviewItem.swift in Sources */,
+				8B3C45591E6D6EE200EC843A /* AVFoundation Extensions.swift in Sources */,
+				8BD6FE301E6DFD08005DAFFF /* GPUImageViewController.swift in Sources */,
+				8B13BEFD1E6AC6EA00CA4ECF /* CameraViewController.swift in Sources */,
+				8BD6FE181E6DF557005DAFFF /* PreviewDatasource.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B13BECE1E6AC5B900CA4ECF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B13BED71E6AC5B900CA4ECF /* GimiCamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B13BED91E6AC5B900CA4ECF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B13BEE21E6AC5B900CA4ECF /* GimiCamUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B13BED41E6AC5B900CA4ECF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B13BEBD1E6AC5B900CA4ECF /* GimiCam */;
+			targetProxy = 8B13BED31E6AC5B900CA4ECF /* PBXContainerItemProxy */;
+		};
+		8B13BEDF1E6AC5B900CA4ECF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B13BEBD1E6AC5B900CA4ECF /* GimiCam */;
+			targetProxy = 8B13BEDE1E6AC5B900CA4ECF /* PBXContainerItemProxy */;
+		};
+		8BD6FE2D1E6DFCF3005DAFFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GPUImage_iOS;
+			targetProxy = 8BD6FE2C1E6DFCF3005DAFFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8B13BEC51E6AC5B900CA4ECF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B13BEC61E6AC5B900CA4ECF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8B13BECA1E6AC5B900CA4ECF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B13BECB1E6AC5B900CA4ECF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B13BEE41E6AC5B900CA4ECF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B13BEE51E6AC5B900CA4ECF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B13BEE71E6AC5B900CA4ECF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = XY9H4LH9U8;
+				INFOPLIST_FILE = "$(SRCROOT)/GimiCam/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = A.GimiCam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GimiCam/GimiCam-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B13BEE81E6AC5B900CA4ECF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = XY9H4LH9U8;
+				INFOPLIST_FILE = "$(SRCROOT)/GimiCam/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = A.GimiCam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GimiCam/GimiCam-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8B13BEEA1E6AC5B900CA4ECF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = XY9H4LH9U8;
+				INFOPLIST_FILE = GimiCamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = A.GimiCamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GimiCam.app/GimiCam";
+			};
+			name = Debug;
+		};
+		8B13BEEB1E6AC5B900CA4ECF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = XY9H4LH9U8;
+				INFOPLIST_FILE = GimiCamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = A.GimiCamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GimiCam.app/GimiCam";
+			};
+			name = Release;
+		};
+		8B13BEED1E6AC5B900CA4ECF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = XY9H4LH9U8;
+				INFOPLIST_FILE = GimiCamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = A.GimiCamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GimiCam;
+			};
+			name = Debug;
+		};
+		8B13BEEE1E6AC5B900CA4ECF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = XY9H4LH9U8;
+				INFOPLIST_FILE = GimiCamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = A.GimiCamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GimiCam;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B13BEB91E6AC5B900CA4ECF /* Build configuration list for PBXProject "GimiCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B13BEE41E6AC5B900CA4ECF /* Debug */,
+				8B13BEE51E6AC5B900CA4ECF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B13BEE61E6AC5B900CA4ECF /* Build configuration list for PBXNativeTarget "GimiCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B13BEE71E6AC5B900CA4ECF /* Debug */,
+				8B13BEE81E6AC5B900CA4ECF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B13BEE91E6AC5B900CA4ECF /* Build configuration list for PBXNativeTarget "GimiCamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B13BEEA1E6AC5B900CA4ECF /* Debug */,
+				8B13BEEB1E6AC5B900CA4ECF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B13BEEC1E6AC5B900CA4ECF /* Build configuration list for PBXNativeTarget "GimiCamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B13BEED1E6AC5B900CA4ECF /* Debug */,
+				8B13BEEE1E6AC5B900CA4ECF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B13BEB61E6AC5B900CA4ECF /* Project object */;
+}

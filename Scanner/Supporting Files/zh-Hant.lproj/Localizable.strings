@@ -1,0 +1,241 @@
+/* 
+  Localizable.strings
+  Scanner
+
+   on 1/18/17.
+   
+*/
+
+"Scanner" = "掃描器";
+
+
+///
+"E-mail" = "電郵";
+"Photos" = "照片";
+
+///
+"OK" = "是的";
+"Cancel" = "取消";
+"Done" = "完成";
+
+///
+"Missing HTTP Response" = "HTTP回應遺失";
+
+///
+"Have you heard about iScanner?" = "您是否聽過%@ app?";
+"This is what they sound like." = "點擊鏈接以在應用商店獲取應用程序。";
+"Saved" = "已儲存";
+"Please Log in to iCloud" = "請登入iCloud";
+"Cannot find correct folder" = "無法找到正確的文件夾";
+"Correct folder found" = "找到了正確的文件夾";
+"Create folder successfully" = "創建新文件夾";
+"Create folder failed" = "創建文件夾失敗";
+"Files are not in correct type" = "檔案格式不正確";
+
+///
+"New Document PDF Name" = "新文件PDF的名稱";
+"New" = "新的";
+"Folder" = "文件夾";
+"New Folder" = "新文件夾";
+"Create new folder" = "創建新文件夾";
+"Type new folder name below." = "請輸入新文件夾的名稱。";
+"Create" = "創建";
+"Document" = "文件";
+
+
+///
+"Recognition" = "公認";
+"Install" = "安裝";
+"Download" = "下載";
+"OCR" = "光學字符識別";
+"Show as text" = "文本顯示";
+"Delete document" = "刪除文件";
+"Text copied to clipboard" = "將文本複製到剪貼板";
+"Choose Language" = "選擇語言";
+
+///
+"Email" = "電郵";
+"Send as jpg" = "以jpg形式發送";
+"Open as..." = "打開為……";
+"Print" = "打印";
+
+///
+"pages" = "頁";
+"files" = "檔案";
+
+///
+"Are you sure?" = "您是否確定？";
+"Selected file(s) will be deleted permanently!" = "所選擇的檔案將會被永久刪除！";
+"Yes, delete it!" = "是的，刪除！";
+"Deleted!" = "已刪除！";
+"Your file(s) has been deleted!" = "您的檔案已被刪除！";
+"Nothing to delete" = "沒有東西刪除";
+"files was moved" = "檔案已被移走";
+"Your image has been saved to Photo Library!" = "圖案已儲存！";
+"Please press" = "請按";
+
+///
+"PDF Text" = "PDF文本";
+"Text" = "文本";
+
+///
+
+"Lock App" = "封鎖應用程序";
+"Paper Size" = "紙張大小";
+"Show Tutorial" = "顯示教程";
+"Support" = "支持";
+"Rate App" = "評價應用程序";
+"Share App" = "分享應用程序";
+"App Settings" = "應用程序設定";
+"Others" = "其他";
+
+///
+"Off" = "關閉";
+"On" = "開啟";
+
+///
+"Are you sure?" = "您是否確定？";
+"Selected picture will be deleted!" = "所選擇的照片將會被刪除！";
+"Yes, delete it!" = "是的，刪除！";
+"Deleted!" = "已刪除！";
+"Your picture has been deleted!" = "您的照片已被刪除！";
+
+///
+"Choice Filter Color" = "選擇過濾器顏色";
+"Color" = "顏色";
+"Grayscale" = "灰度";
+"Black and White" = "黑白";
+
+///
+"Choice Size" = "選擇大小";
+"Letter" = "信件";
+"Business Card" = "商業名片";
+
+///
+
+"Enter passcode" = "輸入密碼";
+"Confirm the passcode" = "確認密碼";
+"Pincode Title3" = "輸入舊密碼";
+"Pincode Title4" = "輸入新密碼";
+"Incorrect passcode" = "密碼錯誤";
+
+"Settings" = "設定";
+
+///
+"Move" = "移動";
+"Share" = "分享";
+"Merge" = "整合";
+"Delete" = "刪除";
+
+"Languages" = "語言";
+"Afrikaans" = "南非荷蘭語";
+"Albanian" = "阿爾巴尼亞語";
+"Arabic" = "阿拉伯語";
+"Armenian" = "亞美尼亞語";
+"Basque" = "巴斯克語";
+"Bengali" = "孟加拉語";
+"Bulgarian" = "保加利亞語";
+"Catalan" = "加泰羅尼亞語";
+"Cambodian" = "柬埔寨語";
+"Chinese (Mandarin)" = "中文(普通話)";
+"Croatian" = "克羅地亞語";
+"Czech" = "捷克語";
+"Danish" = "丹麥語";
+"Dutch" = "荷蘭語";
+"English" = "英語";
+"Estonian" = "愛沙尼亞語";
+"Fiji" = "斐濟語";
+"Finnish" = "芬蘭語";
+"French" = "法語";
+"Georgian" = "格魯吉亞語";
+"German" = "德語";
+"Greek" = "希臘語";
+"Gujarati" = "古吉拉特語";
+"Hebrew" = "希伯來語";
+"Hindi" = "印度語";
+"Hungarian" = "匈牙利亞語";
+"Icelandic" = "冰島語";
+"Indonesian" = "印尼語";
+"Irish" = "愛爾蘭語";
+"Italian" = "意大利語";
+"Japanese" = "日語";
+"Javanese" = "爪哇語";
+"Korean" = "韓語";
+"Latin" = "拉丁語";
+"Latvian" = "拉脫維亞語";
+"Lithuanian" = "立陶宛語";
+"Macedonian" = "馬其頓語";
+"Malay" = "馬來語";
+"Malayalam" = "馬拉雅拉姆語";
+"Maltese" = "馬其他語";
+"Maori" = "毛利語";
+"Marathi" = "馬拉地語";
+"Mongolian" = "蒙古語";
+"Nepali" = "尼泊爾語";
+"Norwegian" = "挪威語";
+"Persian" = "波斯語";
+"Polish" = "波蘭語";
+"Portuguese" = "葡萄牙語";
+"Punjabi" = "旁遮普語";
+"Quechua" = "克丘亞語";
+"Romanian" = "羅馬尼亞語";
+"Russian" = "俄語";
+"Samoan" = "薩摩亞語";
+"Serbian" = "塞爾維亞語";
+"Slovak" = "斯洛伐克語";
+"Slovenian" = "斯洛文尼亞語";
+"Spanish" = "西班牙語";
+"Swahili" = "斯瓦希里語";
+"Swedish" = "瑞典語";
+"Tamil" = "淡米爾語";
+"Tatar" = "韃靼語";
+"Telugu" = "泰盧固語";
+"Thai" = "泰語";
+
+"Tibetan" = "藏語";
+"Tonga" = "湯加語";
+"Turkish" = "土耳其語";
+"Ukrainian" = "烏克蘭語";
+"Urdu" = "烏爾都語";
+"Uzbek" = "烏茲別克語";
+"Vietnamese" = "越南語";
+"Welsh" = "威爾士語";
+"Xhosa" = "科薩語";
+
+/// Missing
+"Password" = "密碼";
+"App password" = "應用程序密碼";
+"With this option you can lock with passcode your app" = "有了此選項您可以使用驗證碼鎖定您的應用程序";
+"Select Print Size" = "選擇打印大小";
+"Create new document" = "創建新文檔";
+"Type new document name below." = "在下方輸入新的文檔名稱";
+"The folder already exist, please use another name." = "檔案已經存在，請使用另一個名稱。";
+
+
+"Uploading" = "正在上載中";
+"Share to..." = "分享到...";
+"Failed authorise Google user" = "無法授權谷歌用戶";
+"Are you sure to logoff Google account?" = "您是否要退出谷歌賬戶？";
+"Logged In" = "登入";
+"Logged Off" = "退出";
+"Log Out" = "登出";
+"Log In" = "登入";
+"Move to..." = "移到...";
+"Auto" = "自動";
+"Find" = "尋找";
+"All" = "所有";
+"Your picture has been deleted!" = "您的圖片已被刪除！";
+"Legal" = "合法";
+"Folder name" = "檔案名稱";
+"Here is the link to download this app from the App Store." = "這是從應用商店下載此應用程序的鏈接。";
+"Save" = "儲存";
+"Try again" = "重試";
+"Edit" = "編輯";
+"Image" = "圖像";
+"Chinese (Traditional)" = "中文 (繁體)";
+"Select Paper Size" = "選擇紙張大小";
+"Downloaded" = "下載";
+"Failed authorise Google user" = "無法授權谷歌用戶";
+"checkOutAppMessageKey" = "將這款驚豔的應用程式用於您的iOS設備。";
+"Area" = "範圍";
+"Camera Access Denied! Go to iOS Settings and turn on Camera Access for this app." = "相機訪問被拒絕！ 轉到iOS設置，然後為此應用程序打開相機訪問。";

@@ -1,0 +1,234 @@
+/* 
+  Localizable.strings
+  Scanner
+
+   on 1/18/17.
+   
+*/
+
+///
+"Scanner" = "Scanner";
+
+
+///
+"E-mail" = "Email";
+"Photos" = "Foto’s";
+
+///
+"OK" = "OK";
+"Cancel" = "Annuleren";
+"Done" = "Klaar";
+
+///
+"Missing HTTP Response" = "Ontbrekende HTTP-response";
+
+///
+"Have you heard about iScanner?" = "Heb je al gehoord van de %@?";
+"This is what they sound like." = "Dit is de link om het via de App Store te verkrijgen.";
+"Saved" = "Opgeslagen";
+"Please Log in to iCloud" = "Gelieve bij iCloud in te loggen";
+"Cannot find correct folder" = "De juiste map kan niet gevonden worden";
+"Correct folder found" = "De juiste map is gevonden";
+"Create folder successfully" = "Nieuwe map aangemaakt";
+"Create folder failed" = "Nieuwe map aanmaken mislukt";
+"Files are not in correct type" = "Verkeerd bestandsformaat";
+
+///
+"New Document PDF Name" = "Nieuwe Naam PDF";
+"New" = "Nieuwe";
+"Folder" = "Map";
+"New Folder" = "Nieuwe Map";
+"Create new folder" = "Nieuwe map aanmaken";
+"Type new folder name below." = "Voer nieuwe naam van de map in.";
+"Create" = "Aanmaken";
+"Document" = "Document";
+
+
+///
+"Recognition" = "Herkenning";
+"Install" = "Installeren";
+"Download" = "Downloaden";
+"OCR" = "OCR";
+"Show as text" = "Als tekst tonen";
+"Delete document" = "Document verwijderen";
+"Text copied to clipboard" = "Tekst gekopieerd naar klembord";
+"Choose Language" = "Taal Kiezen";
+
+///
+"Email" = "Email";
+"Send as jpg" = "Verzenden als jpg";
+"Open as..." = "Open als...";
+"Print" = "Print";
+
+///
+"pages" = "pagina’s";
+"files" = "bestanden";
+
+///
+
+"Are you sure?" = "Weet je het zeker?";
+"Selected file(s) will be deleted permanently!" = "Geselecteerd(e) bestand(en) wordt(en) permanent verwijderd!";
+"Yes, delete it!" = "Ja, verwijder het!";
+"Deleted!" = "Verwijderd!";
+"Your file(s) has been deleted!" = "Je bestand(en) is(zijn) verwijderd!";
+"Nothing to delete" = "Niets te verwijderen";
+"files was moved" = "bestanden zijn verplaatst";
+"Your image has been saved to Photo Library!" = "Afbeelding opgeslagen!";
+"Please press" = "Druk op";
+
+///
+"PDF Text" = "PDF Tekst";
+"Text" = "Tekst";
+
+///
+"Lock App" = "App Vergrendelen";
+"Paper Size" = "Papierafmeting";
+"Show Tutorial" = "Handleiding Tonen";
+"Support" = "Support";
+"Rate App" = "App Beoordelen";
+"Share App" = "App Delen";
+"App Settings" = "App-instellingen";
+"Others" = "Overige";
+
+///
+"Off" = "Uit";
+"On" = "Aan";
+
+///
+"Choice Filter Color" = "Kleurfilter Kiezen";
+"Color" = "Kleur";
+"Grayscale" = "Grijstinten";
+"Black and White" = "Zwart Wit";
+
+///
+"Choice Size" = "Afmeting Kiezen";
+"Letter" = "Letter";
+"Business Card" = "Business Card";
+
+///
+"Enter passcode" = "Wachtwoord Invoeren";
+"Confirm the passcode" = "Wachtwoord Bevestigen";
+"Pincode Title3" = "Oud Wachtwoord Invoeren";
+"Pincode Title4" = "Nieuw Wachtwoord Invoeren";
+"Incorrect passcode" = "Onjuist Wachtwoord";
+
+"Settings" = "Instellingen";
+
+///
+"Move" = "Verplaatsen";
+"Share" = "Delen";
+"Merge" = "Samenvoegen";
+"Delete" = "Verwijderen";
+
+"Languages" = "Talen";
+"Afrikaans" = "Afrikaans";
+"Albanian" = "Albanees";
+"Arabic" = "Arabisch";
+"Armenian" = "Armeens";
+"Basque" = "Baskisch";
+"Bengali" = "Bengaals";
+"Bulgarian" = "Bulgaars";
+"Catalan" = "Catalaans";
+"Cambodian" = "Cambodjaans";
+"Chinese (Mandarin)" = "Chinees (Mandarijn)";
+"Croatian" = "Kroatisch";
+"Czech" = "Tjechisch";
+"Danish" = "Deens";
+"Dutch" = "Nederlands";
+"English" = "Engels";
+"Estonian" = "Estisch";
+"Fiji" = "Fijisch";
+"Finnish" = "Fins";
+"French" = "Frans";
+"Georgian" = "Georgisch";
+"German" = "Duits";
+"Greek" = "Grieks";
+"Gujarati" = "Gujarati";
+"Hebrew" = "Hebreeuws";
+"Hindi" = "Hindi";
+"Hungarian" = "Hongaars";
+"Icelandic" = "IJslands";
+"Indonesian" = "Indonesisch";
+"Irish" = "Iers";
+"Italian" = "Italiaans";
+"Japanese" = "Japans";
+"Javanese" = "Javaans";
+"Korean" = "Koreaans";
+"Latin" = "Latijn";
+"Latvian" = "Lets";
+"Lithuanian" = "Litouws";
+"Macedonian" = "Macedonisch";
+"Malay" = "Maleis";
+"Malayalam" = "Malayalam";
+"Maltese" = "Maltees";
+"Maori" = "Maori";
+"Marathi" = "Marathi";
+"Mongolian" = "Mongools";
+"Nepali" = "Nepalees";
+"Norwegian" = "Noors";
+"Persian" = "Perzisch";
+"Polish" = "Pools";
+"Portuguese" = "Portugees";
+"Punjabi" = "Punjabi";
+"Quechua" = "Quechua";
+"Romanian" = "Roemeens";
+"Russian" = "Russisch";
+"Samoan" = "Samoaans";
+"Serbian" = "Servisch";
+"Slovak" = "Slovaaks";
+"Slovenian" = "Sloveens";
+"Spanish" = "Spaans";
+"Swahili" = "Swahili";
+"Swedish" = "Zweeds";
+"Tamil" = "Tamil";
+"Tatar" = "Tataars";
+"Telugu" = "Telugu";
+"Thai" = "Thais";
+"Tibetan" = "Tibetaans";
+"Tonga" = "Tongaans";
+"Turkish" = "Turks";
+"Ukrainian" = "Oekraïens";
+"Urdu" = "Urdu";
+"Uzbek" = "Oezbeeks";
+"Vietnamese" = "Vietnamees";
+"Welsh" = "Welsh";
+"Xhosa" = "Xhosa";
+
+
+/// Missing
+"Password" = "Wachtwoord";
+"App password" = "Wachtwoord App";
+"With this option you can lock with passcode your app" = "Met deze optie kan je de app met een wachtwoord vergrendelen";
+"Select Print Size" = "Printafmeting selecteren";
+"Create new document" = "Nieuw document aanmaken";
+"Type new document name below." = "Voer hieronder de naam van het nieuwe document in.";
+"The folder already exist, please use another name." = "De map bestaat al, gebruik een andere naam.";
+
+
+"Uploading" = "Uploading";
+"Share to..." = "Delen met...";
+"Failed authorise Google user" = "Autoriseren van Google-gebruiker mislukt";
+"Are you sure to logoff Google account?" = "Weet je zeker dat je uit je Google account wilt uitloggen?";
+"Logged In" = "Ingelogd";
+"Logged Off" = "Uitgelogd";
+"Log Out" = "Uitloggen";
+"Log In" = "Inloggen";
+"Move to..." = "Verplaatsen naar...";
+"Auto" = "Auto";
+"Find" = "Vinden";
+"All" = "Alles";
+"Your picture has been deleted!" = "Je foto is verwijderd!";
+"Legal" = "Legal";
+"Folder name" = "Naam map";
+"Here is the link to download this app from the App Store." = "Hier is de link om deze app vanuit de App Store te downloaden.";
+"Save" = "Opslaan";
+"Try again" = "Opnieuw proberen";
+"Edit" = "Bewerken";
+"Image" = "Afbeelding";
+"Chinese (Traditional)" = "Chinees (Traditioneel)";
+"Select Paper Size" = "Papierafmeting Selecteren";
+"Downloaded" = "Gedownload";
+"Failed authorise Google user" = "Autoriseren van Google-gebruiker mislukt";
+"checkOutAppMessageKey" = " Bekijk deze fantastische applicatie voor uw iOS toestel.";
+"Area" = "Gebied";
+"Camera Access Denied! Go to iOS Settings and turn on Camera Access for this app." = "Camera toegang geweigerd! Ga naar iOS-instellingen en schakel de camera toegang voor deze app in.";
